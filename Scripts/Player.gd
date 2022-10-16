@@ -1,5 +1,14 @@
-extends "res://Scripts/Character.gd"
+extends "res://Scripts/Character.gd";
+
+
+# Variables
+var motion = Vector2();
 
 
 func _process(delta: float) -> void:
-	move_and_slide();
+	update_motion(delta);
+	move_and_slide(motion);
+
+
+func update_motion(delta: float) -> void:
+	pass;
