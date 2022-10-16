@@ -11,6 +11,8 @@ func _process(delta: float) -> void:
 
 
 func update_motion(delta: float) -> void:
+	look_at(get_global_mouse_position());
+	
 #	Vertical Motion
 	if(Input.is_action_pressed("ui_up") and not Input.is_action_pressed("ui_down")):
 		motion.y = clamp((motion.y - SPEED), -MAX_SPEED, 0);
