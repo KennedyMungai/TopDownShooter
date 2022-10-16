@@ -12,3 +12,4 @@ texture = ExtResource( 2 )
 
 [node name="Camera2D" type="Camera2D" parent="." index="2"]
 current = true
+zoom = Vector2( 2, 2 )
