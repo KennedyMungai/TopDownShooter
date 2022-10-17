@@ -24,3 +24,4 @@ smoothing_enabled = true
 occluder = SubResource( 1 )
 
 [node name="Light2D" type="Light2D" parent="." index="4"]
+texture = ExtResource( 2 )
