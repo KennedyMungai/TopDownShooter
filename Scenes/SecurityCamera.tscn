@@ -5,4 +5,5 @@
 [node name="SecurityCamera" type="Node2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.25, 0.25 )
 texture = ExtResource( 1 )
