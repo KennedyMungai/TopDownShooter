@@ -6,6 +6,7 @@
 [ext_resource path="res://Scenes/Torch.tscn" type="PackedScene" id=4]
 
 [sub_resource type="OccluderPolygon2D" id=1]
+cull_mode = 2
 polygon = PoolVector2Array( -7, -20, -13, -16, -15, 1, -12, 16, -6, 21, 3, 22, 9, 15, 13, 0, 7, -17, 2, -21 )
 
 [node name="Character" instance=ExtResource( 1 )]
