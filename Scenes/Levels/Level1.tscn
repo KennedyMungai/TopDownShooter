@@ -28,3 +28,75 @@ color = Color( 0.0941176, 0.0784314, 0.478431, 1 )
 [node name="SecurityCamera1" parent="Security Cameras" instance=ExtResource( 4 )]
 position = Vector2( -506, -316 )
 rotation = 0.560357
+
+[node name="SecurityCamera2" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( -504, 508 )
+rotation = -0.533305
+
+[node name="SecurityCamera3" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 891, 510 )
+rotation = -2.27455
+
+[node name="SecurityCamera4" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 885, -310 )
+rotation = -4.00231
+
+[node name="SecurityCamera5" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 388, 1273 )
+rotation = -0.899153
+
+[node name="SecurityCamera6" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 640, 953 )
+rotation = -0.899153
+
+[node name="SecurityCamera7" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 1023, 520 )
+rotation = 0.743848
+
+[node name="SecurityCamera8" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 2159, 393 )
+rotation = 2.32474
+
+[node name="SecurityCamera9" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 2175, 822 )
+rotation = 3.78425
+
+[node name="SecurityCamera10" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 835, 1414 )
+rotation = 0.869427
+
+[node name="SecurityCamera11" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 834, 1915 )
+rotation = -0.546791
+
+[node name="SecurityCamera12" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 1604, 1408 )
+rotation = 0.847665
+
+[node name="SecurityCamera13" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 1976, 1654 )
+rotation = -2.3245
+
+[node name="SecurityCamera14" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 3118, 1432 )
+rotation = -3.91142
+
+[node name="SecurityCamera15" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 3100, 338 )
+rotation = -4.17
+
+[node name="SecurityCamera16" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 2309, 402 )
+rotation = -5.59311
+
+[node name="SecurityCamera17" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 3122, 1257 )
+rotation = -8.50898
+
+[node name="SecurityCamera18" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 1451, -186 )
+rotation = -10.3194
+
+[node name="SecurityCamera19" parent="Security Cameras" instance=ExtResource( 4 )]
+position = Vector2( 2541, -11 )
+rotation = -10.3194
