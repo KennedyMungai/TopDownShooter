@@ -54,6 +54,12 @@ torch_toggle={
  ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Player"
+2d_physics/layer_2="Walls"
+2d_physics/layer_3="Security Camera"
+
 [physics]
 
 common/enable_pause_aware_picking=true
