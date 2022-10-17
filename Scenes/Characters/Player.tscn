@@ -9,6 +9,7 @@ cull_mode = 2
 polygon = PoolVector2Array( -7, -20, -13, -16, -15, 1, -12, 16, -6, 21, 3, 22, 9, 15, 13, 0, 7, -17, 2, -21 )
 
 [node name="Character" instance=ExtResource( 1 )]
+collision_mask = 3
 script = ExtResource( 3 )
 
 [node name="Sprite" parent="." index="0"]
