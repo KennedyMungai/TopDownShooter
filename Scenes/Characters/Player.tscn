@@ -19,3 +19,4 @@ drag_margin_v_enabled = true
 smoothing_enabled = true
 
 [node name="Torch" parent="." index="3" instance=ExtResource( 4 )]
+position = Vector2( 14, 0 )
