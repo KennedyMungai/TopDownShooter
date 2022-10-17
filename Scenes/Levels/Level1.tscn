@@ -25,6 +25,6 @@ color = Color( 0.0941176, 0.0784314, 0.478431, 1 )
 
 [node name="Security Cameras" type="Node2D" parent="."]
 
-[node name="SecurityCamera" parent="Security Cameras" instance=ExtResource( 4 )]
+[node name="SecurityCamera1" parent="Security Cameras" instance=ExtResource( 4 )]
 position = Vector2( -506, -316 )
 rotation = 0.560357
