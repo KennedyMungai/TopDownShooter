@@ -22,3 +22,5 @@ smoothing_enabled = true
 
 [node name="LightOccluder2D" type="LightOccluder2D" parent="." index="3"]
 occluder = SubResource( 1 )
+
+[node name="Light2D" type="Light2D" parent="." index="4"]
