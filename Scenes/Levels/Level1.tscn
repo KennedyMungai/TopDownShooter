@@ -24,4 +24,5 @@ visible = false
 color = Color( 0.0941176, 0.0784314, 0.478431, 1 )
 
 [node name="SecurityCamera" parent="." instance=ExtResource( 4 )]
-position = Vector2( -498, -295 )
+position = Vector2( -506, -316 )
+rotation = 0.560357
