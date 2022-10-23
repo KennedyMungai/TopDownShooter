@@ -48,6 +48,13 @@ func move() -> void:
 
 func update_path() -> void:
 	if path.size() == 1:
-		make_path();
+		if $Timer.is_stopped():
+			$Timer.start();
+		else:
+			make_path();
 	else:
 		path.remove(0);
+
+
+func _on_Timer_timeout() -> void:
+	make_path();
