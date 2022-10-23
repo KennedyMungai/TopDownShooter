@@ -14,3 +14,4 @@ func _process(delta: float) -> void:
 	
 func Player_is_in_FOV_TOLERANCE() -> void:
 	var NPC_facing_direction = Vector2(1, 0).rotated(global_rotation);
+	var direction_to_Player = Player.position - global_position;
