@@ -28,7 +28,7 @@ func make_path() -> void:
 	randomize();
 	var next_destination = possible_destinations[randi() % possible_destinations.size()];
 	
-	path = navigation.get_simple_path(global_position, next_destination.global_position, true);
+	path = navigation.get_simple_path(global_position, next_destination.global_position);
 
 
 func navigate() -> void:
