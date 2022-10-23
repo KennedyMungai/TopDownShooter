@@ -19,6 +19,9 @@ func _ready() -> void:
 	possible_destinations = available_destinations.get_children();
 	make_path();
 	
+func _process(delta: float) -> void:
+	navigate();
+	
 	
 func make_path() -> void:
 	randomize();
