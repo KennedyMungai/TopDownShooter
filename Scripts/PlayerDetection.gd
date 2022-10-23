@@ -27,7 +27,10 @@ func Player_is_in_LOS() -> bool:
 	var space = get_world_2d().direct_space_state;
 	var LOS_obstacle = space.intersect_ray(global_position, Player.global_position, [self], collision_mask);
 
-	if(LOS_obstacle.collider == Player):
+	var distance_to_player = Player.global_position.distance_to(global_position);
+	var Player_in_range = distance_to_player < MAX_DETECTION_RANGE;
+
+	if(LOS_obstacle.collider == Player and Player_in_range):
 		return true;
 	else:
 		return false;
