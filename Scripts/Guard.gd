@@ -50,8 +50,6 @@ func update_path() -> void:
 	if path.size() == 1:
 		if $Timer.is_stopped():
 			$Timer.start();
-		else:
-			make_path();
 	else:
 		path.remove(0);
 
