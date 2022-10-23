@@ -16,7 +16,7 @@ func Player_is_in_FOV_TOLERANCE() -> void:
 	var NPC_facing_direction = Vector2(1, 0).rotated(global_rotation);
 	var direction_to_Player = (Player.position - global_position).normalized();
 
-	if(abs(direction_to_Player.angle_to(NPC_facing_direction)) < deg2rad(FOV_TOLERANCE)):
+	if(abs(direction_to_Player.angle_to(NPC_facing_direction)) < deg2rad(FOV_TOLERANCE) and Player_is_in_LOS()):
 		$Sprite/Torch.color = Color.red;
 	else:
 		$Sprite/Torch.color = Color.white;
