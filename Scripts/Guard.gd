@@ -7,4 +7,5 @@ var possible_destination: Array = [];
 var path: Array = [];
 var destination: Vector2 = Vector2();
 
-
+# Export variables
+export var walk_slowdown: float = 0.5;
