@@ -4,24 +4,28 @@ extends "res://Scripts/Character.gd"
 #Constants
 const FOV_TOLERANCE = 20;
 const MAX_DETECTION_RANGE = 320;
+const white = Color.white;
+const red = Color.red;
 
 #Onready Variables
 onready var Player = get_node("/root/Level1/Player");
 
 
 func _process(delta: float) -> void:
-	Player_is_in_FOV_TOLERANCE();
-#	Player_is_in_LOS();
+	if(Player_is_in_FOV_TOLERANCE()):
+		$Torch.color = red;
+	else: 
+		$Torch.color = white;
 	
 	
-func Player_is_in_FOV_TOLERANCE() -> void:
+func Player_is_in_FOV_TOLERANCE() -> bool:
 	var NPC_facing_direction = Vector2(1, 0).rotated(global_rotation);
 	var direction_to_Player = (Player.position - global_position).normalized();
 
 	if(abs(direction_to_Player.angle_to(NPC_facing_direction)) < deg2rad(FOV_TOLERANCE) and Player_is_in_LOS()):
-		$Sprite/Torch.color = Color.red;
-#	else:
-#		$Sprite/Torch.color = Color.white;
+		return true;
+	else:
+		return false;
 
 
 func Player_is_in_LOS() -> bool:

@@ -67,9 +67,9 @@ scale = Vector2( 0.3, 0.3 )
 texture = ExtResource( 2 )
 offset = Vector2( 0, -20 )
 
-[node name="Torch" parent="CameraBody/Sprite" instance=ExtResource( 3 )]
-position = Vector2( 0, -330 )
-rotation = -1.5708
+[node name="Torch" parent="CameraBody" instance=ExtResource( 3 )]
+position = Vector2( 107, 0.000358379 )
+scale = Vector2( 0.3, 0.3 )
 offset = Vector2( 0, 0 )
 shadow_enabled = true
 
