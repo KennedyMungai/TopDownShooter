@@ -12,3 +12,4 @@ export var walk_slowdown: float = 0.5;
 
 # Onready variables
 onready var navigation = Global.navigation;
+onready var available_destinations = Global.destinations;
