@@ -9,6 +9,7 @@ var destination: Vector2 = Vector2();
 
 # Export variables
 export var walk_slowdown: float = 0.5;
+export var navigation_stop_theshold = 5;
 
 # Onready variables
 onready var navigation = Global.navigation;
@@ -32,3 +33,9 @@ func make_path() -> void:
 
 func navigate() -> void:
 	var distance_to_destination = position.distance_to(path[0]);
+	destination = path[0];
+	
+	if(distance > navigation_stop_theshold):
+		move();
+	else:
+		update_path();
