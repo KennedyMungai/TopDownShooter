@@ -9,3 +9,6 @@ var destination: Vector2 = Vector2();
 
 # Export variables
 export var walk_slowdown: float = 0.5;
+
+# Onready variables
+onready var navigation = Global.navigation;
