@@ -68,9 +68,9 @@ texture = ExtResource( 2 )
 offset = Vector2( 0, -20 )
 
 [node name="Torch" parent="CameraBody/Sprite" instance=ExtResource( 3 )]
-position = Vector2( -1.31134e-06, -30 )
+position = Vector2( 0, -330 )
 rotation = -1.5708
-scale = Vector2( 3.33333, 3.33333 )
+offset = Vector2( 0, 0 )
 shadow_enabled = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
