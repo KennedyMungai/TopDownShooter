@@ -6,7 +6,7 @@ const FOV_TOLERANCE = 20;
 const MAX_DETECTION_RANGE = 320;
 
 #Onready Variables
-onready var Player = get_node("/root/Level1/Character");
+onready var Player = get_node("/root/Level1/Player");
 
 
 func _process(delta: float) -> void:
