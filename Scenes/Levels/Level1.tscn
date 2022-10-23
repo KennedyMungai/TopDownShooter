@@ -353,85 +353,68 @@ visible = false
 
 [node name="Guard" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 128, -57 )
-walk_slowdown = 0.5
 
 [node name="Guard2" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 1436, 1180 )
-walk_slowdown = 0.5
 
 [node name="Guard3" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 2368, 1070 )
-walk_slowdown = 0.5
 
 [node name="Guard4" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 2961, 1765 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard5" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 2232, 1803 )
 rotation = 4.71238
-walk_slowdown = 0.5
 
 [node name="Guard6" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 1342, 1612 )
 rotation = 4.71238
-walk_slowdown = 0.5
 
 [node name="Guard7" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 2143, 163 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard8" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 4345, -756 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard9" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 5628, 441 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard10" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 5735, 1560 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard11" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 5165, 2180 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard12" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 3718, 3078 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard13" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 5806, 2237 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard14" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 4366, 1232 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard15" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 2919, 448 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard16" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 3774, -707 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Guard17" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 4522, -1177 )
 rotation = 3.14159
-walk_slowdown = 0.5
 
 [node name="Navigation2D" type="Navigation2D" parent="."]
 script = ExtResource( 6 )
