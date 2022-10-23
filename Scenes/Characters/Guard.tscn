@@ -6,6 +6,8 @@
 [ext_resource path="res://Scripts/Guard.gd" type="Script" id=4]
 
 [node name="Guard" instance=ExtResource( 1 )]
+collision_layer = 8
+collision_mask = 3
 script = ExtResource( 4 )
 walk_slowdown = 0.5
 navigation_stop_theshold = 5
