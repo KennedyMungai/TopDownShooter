@@ -3,6 +3,7 @@ extends "res://Scripts/Character.gd"
 
 #Constants
 const FOV_TOLERANCE = 20;
+const MAX_DETECTION_RANGE = 320;
 
 #Onready Variables
 onready var Player = get_node("/root/Level1/Character");
