@@ -11,6 +11,7 @@ onready var Player = get_node("/root/Level1/Player");
 
 func _process(delta: float) -> void:
 	Player_is_in_FOV_TOLERANCE();
+#	Player_is_in_LOS();
 	
 	
 func Player_is_in_FOV_TOLERANCE() -> void:
