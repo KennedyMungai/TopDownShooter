@@ -2,7 +2,7 @@ extends "res://Scripts/Character.gd"
 
 
 #Constants
-const FOV_TOLERANCE = 22;
+const FOV_TOLERANCE = 20;
 
 #Onready Variables
 onready var Player = get_node("/root/Level1/Character");
