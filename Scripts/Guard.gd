@@ -35,7 +35,7 @@ func navigate() -> void:
 	var distance_to_destination = position.distance_to(path[0]);
 	destination = path[0];
 	
-	if(distance > navigation_stop_theshold):
+	if(distance_to_destination > navigation_stop_theshold):
 		move();
 	else:
 		update_path();
