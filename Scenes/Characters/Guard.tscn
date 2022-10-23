@@ -7,6 +7,8 @@
 
 [node name="Guard" instance=ExtResource( 1 )]
 script = ExtResource( 4 )
+walk_slowdown = 0.5
+navigation_stop_theshold = 5
 
 [node name="Sprite" parent="." index="0"]
 texture = ExtResource( 2 )
