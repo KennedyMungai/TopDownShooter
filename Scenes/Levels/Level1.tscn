@@ -405,3 +405,5 @@ rotation = 3.14159
 [node name="Guard17" parent="Guards" instance=ExtResource( 5 )]
 position = Vector2( 4522, -1177 )
 rotation = 3.14159
+
+[node name="Navigation2D" type="Navigation2D" parent="."]
