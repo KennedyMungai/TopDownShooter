@@ -103,5 +103,29 @@ rotation = -10.3194
 position = Vector2( 2541, -11 )
 rotation = -10.3194
 
-[node name="Guard" parent="." instance=ExtResource( 5 )]
-position = Vector2( 178, -4 )
+[node name="Guards" type="Node2D" parent="."]
+
+[node name="Guard" parent="Guards" instance=ExtResource( 5 )]
+position = Vector2( 128, -57 )
+
+[node name="Guard2" parent="Guards" instance=ExtResource( 5 )]
+position = Vector2( 1436, 1180 )
+
+[node name="Guard3" parent="Guards" instance=ExtResource( 5 )]
+position = Vector2( 2368, 1070 )
+
+[node name="Guard4" parent="Guards" instance=ExtResource( 5 )]
+position = Vector2( 2961, 1765 )
+rotation = 3.14159
+
+[node name="Guard5" parent="Guards" instance=ExtResource( 5 )]
+position = Vector2( 2232, 1803 )
+rotation = 4.71238
+
+[node name="Guard6" parent="Guards" instance=ExtResource( 5 )]
+position = Vector2( 1342, 1612 )
+rotation = 4.71238
+
+[node name="Guard7" parent="Guards" instance=ExtResource( 5 )]
+position = Vector2( 2143, 163 )
+rotation = 3.14159
