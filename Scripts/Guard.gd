@@ -28,3 +28,7 @@ func make_path() -> void:
 	var next_destination = possible_destinations[randi() % possible_destinations.size()];
 	
 	path = navigation.get_simple_path(global_position, next_destination.global_position, true);
+
+
+func navigate() -> void:
+	var distance_to_destination = position.distance_to(path[0]);
