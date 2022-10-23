@@ -17,4 +17,4 @@ func Player_is_in_FOV_TOLERANCE() -> void:
 	var direction_to_Player = (Player.position - global_position).normalized();
 
 	if(abs(direction_to_Player.angle_to(NPC_facing_direction)) < deg2rad(FOV_TOLERANCE)):
-		print("FHello);
+		print("Hello");
