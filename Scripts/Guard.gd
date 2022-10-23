@@ -17,3 +17,11 @@ onready var available_destinations = Global.destinations;
 
 func _ready() -> void:
 	possible_destinations = available_destinations.get_children();
+	make_path();
+	
+	
+func make_path() -> void:
+	randomize();
+	var next_destination = possible_destinations[randi() % possible_destinations.size()];
+	
+	path = navigation.get_simple_path(global_position, next_destination.global_position, true);
