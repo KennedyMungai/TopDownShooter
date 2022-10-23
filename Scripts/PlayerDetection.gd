@@ -22,7 +22,7 @@ func Player_is_in_FOV_TOLERANCE() -> void:
 		$Sprite/Torch.color = Color.white;
 
 
-func Player_is_in_LOS():
+func Player_is_in_LOS() -> bool:
 	var space = get_world_2d().direct_space_state;
 	var LOS_obstacle = space.intersect_ray(global_position, Player.global_position, [self], collision_mask);
 
