@@ -39,3 +39,8 @@ func navigate() -> void:
 		move();
 	else:
 		update_path();
+		
+
+func move() -> void:
+	motion = (destination - position).normalized() * (MAX_SPEED * walk_slowdown); 
+	move_and_slide(motion);
