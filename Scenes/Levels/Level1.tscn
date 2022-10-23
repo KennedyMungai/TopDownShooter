@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scenes/Characters/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Tilesets/AutoTileWalls.tres" type="TileSet" id=2]
 [ext_resource path="res://Tilesets/AutoTileFloor.tres" type="TileSet" id=3]
 [ext_resource path="res://Scenes/SecurityCamera.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Characters/Guard.tscn" type="PackedScene" id=5]
 
 [node name="Level1" type="Node2D"]
 
@@ -101,3 +102,6 @@ rotation = -10.3194
 [node name="SecurityCamera19" parent="Security Cameras" instance=ExtResource( 4 )]
 position = Vector2( 2541, -11 )
 rotation = -10.3194
+
+[node name="Guard" parent="." instance=ExtResource( 5 )]
+position = Vector2( 178, -4 )
