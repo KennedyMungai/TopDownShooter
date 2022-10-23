@@ -5,6 +5,10 @@ extends "res://Scripts/Character.gd";
 var motion = Vector2();
 
 
+func _ready() -> void:
+	Global.Player = self;
+
+
 func _process(delta: float) -> void:
 	update_motion(delta);
 	move_and_slide(motion);
