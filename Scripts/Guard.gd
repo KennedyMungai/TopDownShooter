@@ -47,4 +47,7 @@ func move() -> void:
 	
 
 func update_path() -> void:
-	path.remove(0);
+	if path.size() == 1:
+		make_path();
+	else:
+		path.remove(0);
