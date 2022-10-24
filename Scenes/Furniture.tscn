@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://GFX/Tilesheet/tilesheet_complete.png" type="Texture" id=1]
 
@@ -31,6 +31,9 @@ extents = Vector2( 30, 30 )
 
 [sub_resource type="RectangleShape2D" id=10]
 extents = Vector2( 30, 30 )
+
+[sub_resource type="CircleShape2D" id=11]
+radius = 31.1448
 
 [node name="Furniture" type="Node2D"]
 
@@ -139,6 +142,7 @@ region_rect = Rect2( 1472, 1088, 64, 64 )
 shape = SubResource( 9 )
 
 [node name="Small Brown Table" type="Sprite" parent="."]
+position = Vector2( 1656, -23 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 1472, 1024, 64, 64 )
@@ -147,3 +151,14 @@ region_rect = Rect2( 1472, 1024, 64, 64 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Small Brown Table/StaticBody2D"]
 shape = SubResource( 10 )
+
+[node name="Small Brown Round Table" type="Sprite" parent="."]
+position = Vector2( 1756, -23 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1216, 1152, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Small Brown Round Table"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Small Brown Round Table/StaticBody2D"]
+shape = SubResource( 11 )
