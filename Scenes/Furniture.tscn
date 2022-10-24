@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://GFX/Tilesheet/tilesheet_complete.png" type="Texture" id=1]
 
@@ -25,6 +25,12 @@ extents = Vector2( 94, 30 )
 
 [sub_resource type="RectangleShape2D" id=8]
 extents = Vector2( 86.5, 28.5 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 30, 30 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 30, 30 )
 
 [node name="Furniture" type="Node2D"]
 
@@ -110,6 +116,7 @@ region_rect = Rect2( 1280, 1088, 192, 64 )
 shape = SubResource( 7 )
 
 [node name="Green sofa" type="Sprite" parent="."]
+position = Vector2( 1386, -23 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 896, 1024, 192, 64 )
@@ -119,3 +126,24 @@ region_rect = Rect2( 896, 1024, 192, 64 )
 [node name="CollisionPolygon2D" type="CollisionShape2D" parent="Green sofa/StaticBody2D"]
 position = Vector2( -0.5, -0.5 )
 shape = SubResource( 8 )
+
+[node name="Small Corporate Table" type="Sprite" parent="."]
+position = Vector2( 1564, -23 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1472, 1088, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Small Corporate Table"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Small Corporate Table/StaticBody2D"]
+shape = SubResource( 9 )
+
+[node name="Small Brown Table" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1472, 1024, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Small Brown Table"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Small Brown Table/StaticBody2D"]
+shape = SubResource( 10 )
