@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://GFX/Tilesheet/tilesheet_complete.png" type="Texture" id=1]
 
@@ -10,6 +10,12 @@ radius = 11.0
 
 [sub_resource type="CircleShape2D" id=3]
 radius = 22.3607
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 94, 30 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 90, 21.5 )
 
 [node name="Furniture" type="Node2D"]
 
@@ -38,6 +44,7 @@ position = Vector2( -1, 2 )
 shape = SubResource( 2 )
 
 [node name="Big Office Plant" type="Sprite" parent="."]
+position = Vector2( 270, -25 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 1600, 256, 64, 64 )
@@ -47,3 +54,25 @@ region_rect = Rect2( 1600, 256, 64, 64 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Big Office Plant/StaticBody2D"]
 position = Vector2( 3, 1 )
 shape = SubResource( 3 )
+
+[node name="Brown Sofa" type="Sprite" parent="."]
+position = Vector2( 458, -26 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 896, 1088, 192, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brown Sofa"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brown Sofa/StaticBody2D"]
+shape = SubResource( 4 )
+
+[node name="Corporate Looking Sofa" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 896, 1152, 192, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Corporate Looking Sofa"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Corporate Looking Sofa/StaticBody2D"]
+position = Vector2( 0, 0.5 )
+shape = SubResource( 5 )
