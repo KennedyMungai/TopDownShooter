@@ -18,39 +18,3 @@ region_rect = Rect2( 1088, 1216, 64, 64 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="OfficeChair/StaticBody2D"]
 position = Vector2( 0, 1 )
 shape = SubResource( 1 )
-
-[node name="OfficeChair2" type="Sprite" parent="."]
-position = Vector2( 177, -26 )
-texture = ExtResource( 1 )
-region_enabled = true
-region_rect = Rect2( 896, 1216, 64, 64 )
-
-[node name="StaticBody2D" type="StaticBody2D" parent="OfficeChair2"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="OfficeChair2/StaticBody2D"]
-position = Vector2( 0, 1 )
-shape = SubResource( 1 )
-
-[node name="OfficeChair3" type="Sprite" parent="."]
-position = Vector2( 240, -26 )
-texture = ExtResource( 1 )
-region_enabled = true
-region_rect = Rect2( 960, 1216, 64, 64 )
-
-[node name="StaticBody2D" type="StaticBody2D" parent="OfficeChair3"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="OfficeChair3/StaticBody2D"]
-position = Vector2( 0, 1 )
-shape = SubResource( 1 )
-
-[node name="OfficeChair4" type="Sprite" parent="."]
-position = Vector2( 293, -26 )
-texture = ExtResource( 1 )
-region_enabled = true
-region_rect = Rect2( 1024, 1216, 64, 64 )
-
-[node name="StaticBody2D" type="StaticBody2D" parent="OfficeChair4"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="OfficeChair4/StaticBody2D"]
-position = Vector2( 0, 1 )
-shape = SubResource( 1 )
