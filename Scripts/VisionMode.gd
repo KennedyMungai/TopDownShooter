@@ -10,6 +10,7 @@ func _ready() -> void:
 	
 
 func NightVision() -> void:
+	$Timer.start();
 	color = NIGHTVISION;
 	
 	
