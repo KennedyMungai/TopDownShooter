@@ -10,13 +10,9 @@ func _ready() -> void:
 	
 
 func NightVision() -> void:
-	$Timer.start();
 	color = NIGHTVISION;
 	
 	
 func DarkVision() -> void:
 	color = DARK;
 
-
-func _on_Timer_timeout() -> void:
-	DarkVision();
