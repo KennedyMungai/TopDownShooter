@@ -42,6 +42,7 @@ func update_motion(delta: float) -> void:
 func _input(event: InputEvent) -> void:
 	if(Input.is_action_pressed("ui_vision_mode_change") and not vision_change_on_cooldown):
 		cycle_vision_mode();
+		vision_change_on_cooldown = true;
 		$VisionModeTimer.start();
 
 
