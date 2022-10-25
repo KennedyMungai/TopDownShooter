@@ -19,6 +19,7 @@ onready var available_destinations = Global.destinations;
 func _ready() -> void:
 	possible_destinations = available_destinations.get_children();
 	make_path();
+	add_to_group("NPC");
 	
 func _process(delta: float) -> void:
 	navigate();

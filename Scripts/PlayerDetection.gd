@@ -11,6 +11,10 @@ const red = Color.red;
 onready var Player = get_node("/root/Level1/Player");
 
 
+func _ready() -> void:
+	add_to_group("NPC");
+
+
 func _process(delta: float) -> void:
 	if(Player_is_in_FOV_TOLERANCE()):
 		$Torch.color = red;
