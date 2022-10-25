@@ -38,3 +38,7 @@ func update_motion(delta: float) -> void:
 func _input(event: InputEvent) -> void:
 	if(Input.is_action_pressed("ui_vision_mode_change")):
 		cycle_vision_mode();
+
+
+func cycle_vision_mode() -> void:
+	pass;
