@@ -11,9 +11,9 @@ func _ready() -> void:
 
 func NightVision() -> void:
 	color = NIGHTVISION;
-	$AudioStreamPlayer2D.stream(Global.nightvision_on_sfx);
+	$AudioStreamPlayer2D.stream = Global.nightvision_on_sfx;
 	
 	
 func DarkVision() -> void:
 	color = DARK;
-	$AudioStreamPlayer2D.stream(Global.nightvision_off_sfx);
+	$AudioStreamPlayer2D.stream = Global.nightvision_off_sfx;
