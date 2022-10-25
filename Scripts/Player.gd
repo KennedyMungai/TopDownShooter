@@ -49,3 +49,7 @@ func cycle_vision_mode() -> void:
 		get_tree().call_group("interface", "DarkVision");
 		vision_mode.DARK;
 		
+
+
+func _on_VisionModeTimer_timeout() -> void:
+	pass # Replace with function body.
