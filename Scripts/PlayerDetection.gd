@@ -43,3 +43,11 @@ func Player_is_in_LOS() -> bool:
 		return true;
 	else:
 		return false;
+
+
+func NightVision() -> void:
+	pass;
+	
+	
+func DarkVision() -> void:
+	pass;
