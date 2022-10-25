@@ -9,7 +9,7 @@ func _ready() -> void:
 	
 
 func NightVision() -> void:
-	pass;
+	color = NIGHTVISION;
 	
 func DarkVision() -> void:
-	pass;
+	color = DARK;
