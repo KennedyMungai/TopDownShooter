@@ -33,3 +33,7 @@ func update_motion(delta: float) -> void:
 		motion.x = clamp((motion.x + SPEED),0 ,MAX_SPEED);
 	else:
 		motion.x = lerp(motion.x, 0, FRICTION);
+
+
+func _input(event: InputEvent) -> void:
+	pass;
