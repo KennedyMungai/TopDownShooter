@@ -10,11 +10,13 @@ func _ready() -> void:
 	
 
 func NightVision() -> void:
+	inform_npcs("NightVision");
 	color = NIGHTVISION;
 	$AudioStreamPlayer2D.stream = load(Global.nightvision_on_sfx);
 	play_sfx();
 	
 func DarkVision() -> void:
+	inform_npcs("DarkVision");
 	color = DARK;
 	$AudioStreamPlayer2D.stream = load(Global.nightvision_off_sfx);
 	play_sfx();
