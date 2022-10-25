@@ -56,4 +56,4 @@ func cycle_vision_mode() -> void:
 		
 
 func _on_VisionModeTimer_timeout() -> void:
-	pass # Replace with function body.
+	vision_change_on_cooldown = false;
