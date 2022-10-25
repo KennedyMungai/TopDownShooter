@@ -46,5 +46,6 @@ func cycle_vision_mode() -> void:
 		get_tree().call_group("interface", "NightVision");
 		vision_mode.NIGHTVISION;
 	elif vision_mode is vision_mode.NIGHTVISION:
+		get_tree().call_group("interface", "DarkVision");
 		vision_mode.DARK;
 		
