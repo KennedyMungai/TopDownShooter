@@ -8,7 +8,7 @@ const white = Color.white;
 const red = Color.red;
 
 #Onready Variables
-onready var Player = get_node("/root/Level1/Player");
+onready var Player = Global.Player;
 
 
 func _ready() -> void:
