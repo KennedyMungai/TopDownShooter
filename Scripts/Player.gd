@@ -3,6 +3,8 @@ extends "res://Scripts/Character.gd";
 
 # Variables
 var motion = Vector2();
+
+# Enums
 enum vision_mode {DARK, NIGHTVISION};
 
 
