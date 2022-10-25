@@ -16,4 +16,4 @@ func NightVision() -> void:
 	
 func DarkVision() -> void:
 	color = DARK;
-
+	$AudioStreamPlayer2D.stream(Global.nightvision_off_sfx);
