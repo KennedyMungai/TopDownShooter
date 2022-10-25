@@ -16,3 +16,7 @@ func NightVision() -> void:
 	
 func DarkVision() -> void:
 	color = DARK;
+
+
+func _on_Timer_timeout() -> void:
+	DarkVision();
