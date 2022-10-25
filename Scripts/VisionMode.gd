@@ -22,3 +22,7 @@ func DarkVision() -> void:
 
 func play_sfx() -> void:
 	$AudioStreamPlayer2D.play();
+
+
+func inform_npcs(vision_mode) -> void:
+	get_tree().call_group("NPC", vision_mode);
