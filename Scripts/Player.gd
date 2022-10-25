@@ -3,7 +3,7 @@ extends "res://Scripts/Character.gd";
 
 # Variables
 var motion = Vector2();
-enum vision_mode {dark, nightvision};
+enum vision_mode {DARK, NIGHTVISION};
 
 
 func _ready() -> void:
