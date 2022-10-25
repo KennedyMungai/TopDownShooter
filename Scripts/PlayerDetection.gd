@@ -46,8 +46,8 @@ func Player_is_in_LOS() -> bool:
 
 
 func NightVision() -> void:
-	pass;
+	$Torch.enabled = false;
 	
 	
 func DarkVision() -> void:
-	pass;
+	$Torch.enabled = true;
