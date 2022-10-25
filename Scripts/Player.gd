@@ -42,4 +42,8 @@ func _input(event: InputEvent) -> void:
 
 
 func cycle_vision_mode() -> void:
-	pass;
+	if vision_mode is vision_mode.DARK:
+		vision_mode.NIGHTVISION;
+	elif vision_mode is vision_mode.NIGHTVISION:
+		vision_mode.DARK;
+		
