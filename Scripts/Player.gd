@@ -8,6 +8,7 @@ enum vision_mode {DARK, NIGHTVISION};
 
 func _ready() -> void:
 	Global.Player = self;
+	vision_mode.DARK;
 
 
 func _process(delta: float) -> void:
