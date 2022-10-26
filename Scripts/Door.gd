@@ -13,7 +13,7 @@ func _on_Door_body_entered(body: Node) -> void:
 
 
 func _on_Door_body_exited(body: Node) -> void:
-	if bosdy == Global.Player:
+	if body == Global.Player:
 		can_click = false;
 
 
