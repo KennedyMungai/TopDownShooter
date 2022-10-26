@@ -19,3 +19,7 @@ func _on_Door_body_exited(body: Node) -> void:
 
 func open() -> void:
 	$AnimationPlayer.play("Open");
+
+
+func _input_event(viewport: Object, event: InputEvent, shape_idx: int) -> void:
+	pass;
