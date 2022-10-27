@@ -11,6 +11,7 @@ var guess: Array = [];
 
 func _ready() -> void:
 	connect_buttons();
+	reset_lock();
 
 
 func connect_buttons() -> void:
