@@ -49,4 +49,4 @@ func update_display() -> void:
 
 
 func _on_Timer_timeout() -> void:
-	pass # Replace with function body.
+	print("Correct");
