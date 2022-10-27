@@ -61,3 +61,4 @@ margin_bottom = 380.0
 margin_right = 280.0
 margin_bottom = 268.0
 rect_min_size = Vector2( 280, 268 )
+columns = 3
