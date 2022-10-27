@@ -24,4 +24,7 @@ func _on_Button_Pressed(button) -> void:
 
 
 func check_guess() -> void:
-	pass;
+	if guess == combination:
+		print("Correct");
+	else:
+		reset_lock();
