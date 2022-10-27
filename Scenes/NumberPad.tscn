@@ -57,7 +57,7 @@ margin_top = 112.0
 margin_right = 280.0
 margin_bottom = 380.0
 
-[node name="GridContainer" type="GridContainer" parent="Background/VSplitContainer/ButtonsContainer"]
+[node name="ButtonGrid" type="GridContainer" parent="Background/VSplitContainer/ButtonsContainer"]
 margin_right = 280.0
 margin_bottom = 268.0
 rect_min_size = Vector2( 280, 268 )
