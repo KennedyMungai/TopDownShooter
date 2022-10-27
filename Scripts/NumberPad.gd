@@ -3,6 +3,7 @@ extends Popup
 
 # Vars
 var combination: Array = [4, 1, 5];
+var guess: Array = [];
 
 
 func _ready() -> void:
