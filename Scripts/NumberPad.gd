@@ -28,3 +28,7 @@ func check_guess() -> void:
 		print("Correct");
 	else:
 		reset_lock();
+
+
+func enter(button) -> void:
+	guess.append(button);
