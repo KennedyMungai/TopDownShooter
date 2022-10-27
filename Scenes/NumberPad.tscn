@@ -21,7 +21,6 @@ texture = ExtResource( 7 )
 region_rect = Rect2( 0, 0, 100, 100 )
 
 [node name="NumberPad" type="Popup"]
-visible = true
 margin_right = 40.0
 margin_bottom = 40.0
 theme = ExtResource( 4 )
