@@ -52,4 +52,4 @@ func update_display() -> void:
 
 
 func _on_Timer_timeout() -> void:
-	print("Correct");
+	hide();
