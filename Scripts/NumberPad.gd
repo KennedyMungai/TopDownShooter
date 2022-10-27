@@ -28,6 +28,7 @@ func _on_Button_Pressed(button) -> void:
 
 func check_guess() -> void:
 	if guess == combination:
+		light.texture = load(Global.red_light);
 		$Timer.start();
 	else:
 		reset_lock();
