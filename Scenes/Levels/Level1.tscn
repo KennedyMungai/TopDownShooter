@@ -839,26 +839,6 @@ position = Vector2( 1207, 1184 )
 rotation = 1.57079
 scale = Vector2( 3, 1 )
 
-[node name="Door3" parent="Doors" instance=ExtResource( 10 )]
-position = Vector2( 1312, 842 )
-rotation = 3.14159
-scale = Vector2( 3, 1 )
-
-[node name="Door4" parent="Doors" instance=ExtResource( 10 )]
-position = Vector2( 1951, 851 )
-rotation = 3.14159
-scale = Vector2( 3, 1 )
-
-[node name="Door5" parent="Doors" instance=ExtResource( 10 )]
-position = Vector2( 1919, 1290 )
-rotation = 3.14159
-scale = Vector2( 2, 1 )
-
-[node name="Door6" parent="Doors" instance=ExtResource( 10 )]
-position = Vector2( 1664, 1782 )
-rotation = 3.14159
-scale = Vector2( 2, 1 )
-
 [node name="Door7" parent="Doors" instance=ExtResource( 10 )]
 position = Vector2( 4000, 1289 )
 rotation = 3.14159
