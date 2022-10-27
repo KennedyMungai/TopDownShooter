@@ -32,10 +32,10 @@ margin_bottom = 100.0
 rect_min_size = Vector2( 280, 100 )
 
 [node name="DisplayGlass" type="NinePatchRect" parent="Background/VSplitContainer/DisplayContainer"]
-margin_left = 136.0
-margin_top = 46.0
-margin_right = 144.0
-margin_bottom = 54.0
+margin_left = 40.0
+margin_right = 240.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 200, 100 )
 texture = ExtResource( 2 )
 patch_margin_left = 4
 patch_margin_top = 4
