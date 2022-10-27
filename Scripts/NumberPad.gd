@@ -37,7 +37,8 @@ func enter(button) -> void:
 	
 	
 func reset_lock() -> void:
-	pass;
+	display.clear();
+	guess.clear();
 	
 
 func update_display() -> void:
