@@ -37,7 +37,7 @@ func enter(button) -> void:
 	
 	
 func reset_lock() -> void:
-	display.bbcode_text = PoolStringArray(guess).join("");
+	display.bbcode_text = "[center]" + PoolStringArray(guess).join("") + "[/center]";
 	
 
 func update_display() -> void:
