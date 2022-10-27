@@ -24,3 +24,7 @@ margin_left = 10.0
 margin_top = 10.0
 margin_right = -10.0
 margin_bottom = -10.0
+
+[node name="DisplayContainer" type="CenterContainer" parent="Background/VSplitContainer"]
+margin_right = 280.0
+margin_bottom = 380.0
