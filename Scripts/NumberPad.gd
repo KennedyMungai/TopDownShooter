@@ -27,7 +27,7 @@ func _on_Button_Pressed(button) -> void:
 
 func check_guess() -> void:
 	if guess == combination:
-		print("Correct");
+		$Timer.start();
 	else:
 		reset_lock();
 
