@@ -32,3 +32,7 @@ func check_guess() -> void:
 
 func enter(button) -> void:
 	guess.append(button);
+	
+	
+func reset_lock() -> void:
+	pass;
