@@ -39,6 +39,7 @@ func enter(button) -> void:
 	
 	
 func reset_lock() -> void:
+	light = load(Global.red_light);
 	display.clear();
 	guess.clear();
 	
