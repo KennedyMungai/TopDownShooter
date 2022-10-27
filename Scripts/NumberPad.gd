@@ -1,6 +1,10 @@
 extends Popup
 
 
+# Vars
+var combination: Array = [4, 1, 5];
+
+
 func _ready() -> void:
 	connect_buttons();
 
