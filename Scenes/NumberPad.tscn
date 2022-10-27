@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://GFX/Interface/PNG/metalPanel.png" type="Texture" id=1]
 [ext_resource path="res://GFX/Interface/PNG/glassPanel.png" type="Texture" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://GFX/Interface/PNG/metalPanel_redCorner.png" type="Texture" id=5]
 [ext_resource path="res://GFX/Interface/PNG/metalPanel_greenCorner.png" type="Texture" id=6]
 [ext_resource path="res://GFX/Interface/PNG/metalPanel_blueCorner.png" type="Texture" id=7]
+[ext_resource path="res://Scripts/NumberPad.gd" type="Script" id=8]
 
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 6 )
@@ -24,6 +25,7 @@ region_rect = Rect2( 0, 0, 100, 100 )
 margin_right = 40.0
 margin_bottom = 40.0
 theme = ExtResource( 4 )
+script = ExtResource( 8 )
 
 [node name="Background" type="NinePatchRect" parent="."]
 anchor_right = 1.0
