@@ -28,3 +28,9 @@ margin_bottom = -10.0
 [node name="DisplayContainer" type="CenterContainer" parent="Background/VSplitContainer"]
 margin_right = 280.0
 margin_bottom = 380.0
+
+[node name="DisplayGlass" type="NinePatchRect" parent="Background/VSplitContainer/DisplayContainer"]
+margin_left = 140.0
+margin_top = 190.0
+margin_right = 140.0
+margin_bottom = 190.0
