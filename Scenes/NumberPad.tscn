@@ -28,14 +28,12 @@ margin_bottom = -10.0
 
 [node name="DisplayContainer" type="CenterContainer" parent="Background/VSplitContainer"]
 margin_right = 280.0
-margin_bottom = 380.0
-rect_min_size = Vector2( 280, 380 )
+margin_bottom = 100.0
+rect_min_size = Vector2( 280, 100 )
 
 [node name="DisplayGlass" type="NinePatchRect" parent="Background/VSplitContainer/DisplayContainer"]
-margin_left = 136.0
-margin_top = 186.0
-margin_right = 144.0
-margin_bottom = 194.0
+margin_right = 280.0
+margin_bottom = 100.0
 texture = ExtResource( 2 )
 patch_margin_left = 4
 patch_margin_top = 4
@@ -44,12 +42,11 @@ patch_margin_bottom = 4
 
 [node name="Display" type="RichTextLabel" parent="Background/VSplitContainer/DisplayContainer"]
 margin_left = 140.0
-margin_top = 190.0
+margin_top = 50.0
 margin_right = 140.0
-margin_bottom = 190.0
+margin_bottom = 50.0
 
-[node name="ButtonsContainer" type="CenterContainer" parent="Background/VSplitContainer/DisplayContainer"]
-margin_left = 140.0
-margin_top = 190.0
-margin_right = 140.0
-margin_bottom = 190.0
+[node name="ButtonsContainer" type="CenterContainer" parent="Background/VSplitContainer"]
+margin_top = 112.0
+margin_right = 280.0
+margin_bottom = 380.0
