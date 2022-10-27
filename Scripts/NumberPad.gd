@@ -16,3 +16,7 @@ func _on_Button_Pressed(button) -> void:
 		check_guess();
 	else:
 		enter(int(button));
+
+
+func check_guess() -> void:
+	pass;
