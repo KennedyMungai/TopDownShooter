@@ -35,3 +35,7 @@ rect_min_size = Vector2( 280, 380 )
 margin_right = 280.0
 margin_bottom = 380.0
 texture = ExtResource( 2 )
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
