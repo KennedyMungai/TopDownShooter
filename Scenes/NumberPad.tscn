@@ -66,3 +66,47 @@ columns = 3
 [node name="Button1" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
 margin_right = 12.0
 margin_bottom = 20.0
+
+[node name="Button2" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+margin_left = 16.0
+margin_right = 28.0
+margin_bottom = 20.0
+
+[node name="Button3" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+margin_left = 32.0
+margin_right = 44.0
+margin_bottom = 20.0
+
+[node name="Button4" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+margin_top = 24.0
+margin_right = 12.0
+margin_bottom = 44.0
+
+[node name="Button5" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+margin_left = 16.0
+margin_top = 24.0
+margin_right = 28.0
+margin_bottom = 44.0
+
+[node name="Button6" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+margin_left = 32.0
+margin_top = 24.0
+margin_right = 44.0
+margin_bottom = 44.0
+
+[node name="Button7" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+margin_top = 48.0
+margin_right = 12.0
+margin_bottom = 68.0
+
+[node name="Button8" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+margin_left = 16.0
+margin_top = 48.0
+margin_right = 28.0
+margin_bottom = 68.0
+
+[node name="Button9" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+margin_left = 32.0
+margin_top = 48.0
+margin_right = 44.0
+margin_bottom = 68.0
