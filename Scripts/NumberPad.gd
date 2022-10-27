@@ -7,4 +7,5 @@ func _ready() -> void:
 
 func connect_buttons() -> void:
 	for button in $Background/VSplitContainer/ButtonsContainer/ButtonGrid.get_children():
-		button.connect("pressed", self, "_on_Button_Pressed", [button.text]);
+		if button is Button:
+			button.connect("pressed", self, "_on_Button_Pressed", [button.text]);
