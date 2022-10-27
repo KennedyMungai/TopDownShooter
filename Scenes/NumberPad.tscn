@@ -161,11 +161,13 @@ __meta__ = {
 "_editor_description_": ""
 }
 
-[node name="TextureRect" type="TextureRect" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+[node name="Light" type="TextureRect" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
 margin_top = 132.0
 margin_right = 40.0
 margin_bottom = 172.0
+rect_min_size = Vector2( 40, 40 )
 texture = ExtResource( 3 )
+expand = true
 
 [node name="Button0" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
 margin_left = 44.0
