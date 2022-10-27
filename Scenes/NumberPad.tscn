@@ -48,6 +48,9 @@ margin_top = 20.0
 margin_right = 265.0
 margin_bottom = 80.0
 rect_min_size = Vector2( 250, 60 )
+bbcode_enabled = true
+bbcode_text = "TEst text"
+text = "TEst text"
 
 [node name="ButtonsContainer" type="CenterContainer" parent="Background/VSplitContainer"]
 margin_top = 112.0
