@@ -36,3 +36,7 @@ func enter(button) -> void:
 	
 func reset_lock() -> void:
 	pass;
+	
+
+func update_display() -> void:
+	pass;
