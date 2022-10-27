@@ -61,10 +61,10 @@ margin_right = 280.0
 margin_bottom = 380.0
 
 [node name="ButtonGrid" type="GridContainer" parent="Background/VSplitContainer/ButtonsContainer"]
-margin_left = 103.0
-margin_top = 81.0
-margin_right = 177.0
-margin_bottom = 186.0
+margin_left = 95.0
+margin_top = 73.0
+margin_right = 185.0
+margin_bottom = 195.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
@@ -72,78 +72,79 @@ size_flags_vertical = 3
 columns = 3
 
 [node name="Button1" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_right = 24.0
-margin_bottom = 23.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
 text = "1"
 
 [node name="Button2" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_left = 28.0
-margin_right = 42.0
-margin_bottom = 23.0
+margin_left = 44.0
+margin_right = 58.0
+margin_bottom = 40.0
 text = "2"
 
 [node name="Button3" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_left = 46.0
-margin_right = 74.0
-margin_bottom = 23.0
+margin_left = 62.0
+margin_right = 90.0
+margin_bottom = 40.0
 text = "3"
 
 [node name="Button4" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_top = 27.0
-margin_right = 24.0
-margin_bottom = 50.0
+margin_top = 44.0
+margin_right = 40.0
+margin_bottom = 67.0
 text = "4"
 
 [node name="Button5" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_left = 28.0
-margin_top = 27.0
-margin_right = 42.0
-margin_bottom = 50.0
+margin_left = 44.0
+margin_top = 44.0
+margin_right = 58.0
+margin_bottom = 67.0
 text = "5"
 
 [node name="Button6" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_left = 46.0
-margin_top = 27.0
-margin_right = 74.0
-margin_bottom = 50.0
+margin_left = 62.0
+margin_top = 44.0
+margin_right = 90.0
+margin_bottom = 67.0
 text = "6"
 
 [node name="Button7" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_top = 54.0
-margin_right = 24.0
-margin_bottom = 77.0
+margin_top = 71.0
+margin_right = 40.0
+margin_bottom = 94.0
 text = "7"
 
 [node name="Button8" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_left = 28.0
-margin_top = 54.0
-margin_right = 42.0
-margin_bottom = 77.0
+margin_left = 44.0
+margin_top = 71.0
+margin_right = 58.0
+margin_bottom = 94.0
 text = "8"
 
 [node name="Button9" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_left = 46.0
-margin_top = 54.0
-margin_right = 74.0
-margin_bottom = 77.0
+margin_left = 62.0
+margin_top = 71.0
+margin_right = 90.0
+margin_bottom = 94.0
 text = "9"
 
 [node name="TextureRect" type="TextureRect" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_top = 81.0
-margin_right = 24.0
-margin_bottom = 105.0
+margin_top = 98.0
+margin_right = 40.0
+margin_bottom = 122.0
 texture = ExtResource( 3 )
 
 [node name="Button0" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_left = 28.0
-margin_top = 81.0
-margin_right = 42.0
-margin_bottom = 105.0
+margin_left = 44.0
+margin_top = 98.0
+margin_right = 58.0
+margin_bottom = 122.0
 text = "0"
 
 [node name="OK" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
-margin_left = 46.0
-margin_top = 81.0
-margin_right = 74.0
-margin_bottom = 105.0
+margin_left = 62.0
+margin_top = 98.0
+margin_right = 90.0
+margin_bottom = 122.0
 text = "OK"
