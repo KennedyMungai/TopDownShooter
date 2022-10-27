@@ -1,5 +1,7 @@
 extends Popup
 
+# Onready
+onready var display = $Background/VSplitContainer/DisplayContainer/Display;
 
 # Vars
 var combination: Array = [4, 1, 5];
