@@ -39,6 +39,9 @@ func enter(button) -> void:
 func reset_lock() -> void:
 	display.bbcode_text = "[center]" + PoolStringArray(guess).join("") + "[/center]";
 	
+	if guess.size() == combination.size():
+		check_guess();
+	
 
 func update_display() -> void:
 	pass;
