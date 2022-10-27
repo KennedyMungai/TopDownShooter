@@ -211,3 +211,5 @@ text = "ok"
 __meta__ = {
 "_editor_description_": ""
 }
+
+[node name="Timer" type="Timer" parent="."]
