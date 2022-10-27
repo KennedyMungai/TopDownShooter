@@ -63,6 +63,6 @@ margin_bottom = 268.0
 rect_min_size = Vector2( 280, 268 )
 columns = 3
 
-[node name="Button" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
+[node name="Button1" type="Button" parent="Background/VSplitContainer/ButtonsContainer/ButtonGrid"]
 margin_right = 12.0
 margin_bottom = 20.0
