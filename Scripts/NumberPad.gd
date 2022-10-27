@@ -46,3 +46,7 @@ func update_display() -> void:
 	
 	if guess.size() == combination.size():
 		check_guess();
+
+
+func _on_Timer_timeout() -> void:
+	pass # Replace with function body.
