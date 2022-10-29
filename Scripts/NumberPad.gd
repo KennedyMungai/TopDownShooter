@@ -57,5 +57,6 @@ func update_display() -> void:
 
 
 func _on_Timer_timeout() -> void:
+	emit_signal("combination_correct");
 	hide();
 	reset_lock();
