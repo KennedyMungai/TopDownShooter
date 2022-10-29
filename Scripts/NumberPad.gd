@@ -27,7 +27,8 @@ func connect_buttons() -> void:
 
 
 func _on_Button_Pressed(button) -> void:
-	$AudioStreamPlayer2D.stream()
+	$AudioStreamPlayer2D.stream = three_tone;
+	$AudioStreamPlayer2D.play();
 	if button == "Ok":
 		check_guess();
 	else:
