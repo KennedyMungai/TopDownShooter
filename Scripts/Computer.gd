@@ -10,6 +10,7 @@ export var combination_length: int = 4;
 
 func _ready() -> void:
 	$Light2D.enabled = false;
+	generate_combination();
 
 
 func generate_combination() -> void:
