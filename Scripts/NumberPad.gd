@@ -7,6 +7,8 @@ onready var light = $Background/VSplitContainer/ButtonsContainer/ButtonGrid/Ligh
 # Vars
 var combination: Array = [4, 1, 5];
 var guess: Array = [];
+var two_tone = load("res://SFX/twoTone1.ogg");
+var three_tone = load("res://SFX/threeTone1.ogg");
 
 
 #Signals
@@ -25,6 +27,7 @@ func connect_buttons() -> void:
 
 
 func _on_Button_Pressed(button) -> void:
+	$AudioStreamPlayer2D.stream()
 	if button == "Ok":
 		check_guess();
 	else:
