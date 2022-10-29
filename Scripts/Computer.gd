@@ -37,4 +37,4 @@ func _input_event(viewport: Object, event: InputEvent, shape_idx: int) -> void:
 
 
 func set_popup_text() -> void:
-	pass;
+	$CanvasLayer/ComputerPopup.set_text(combination);
