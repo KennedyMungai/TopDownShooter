@@ -18,3 +18,7 @@ func _on_Door_body_exited(body: Node) -> void:
 	if body == Global.Player:
 		can_click = false;
 		$CanvasLayer/NumberPad.hide();
+
+
+func _on_NumberPad_combination_correct() -> void:
+	pass # Replace with function body.
