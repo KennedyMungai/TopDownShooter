@@ -1,7 +1,5 @@
 [gd_scene format=2]
 
-[node name="ComputerPopup" type="CanvasLayer"]
-
-[node name="Popup" type="Popup" parent="."]
+[node name="ComputerPopup" type="Popup"]
 margin_right = 40.0
 margin_bottom = 40.0
