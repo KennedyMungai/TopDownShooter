@@ -44,7 +44,10 @@ func check_guess() -> void:
 
 
 func enter(button) -> void:
+	$AudioStreamPlayer2D.stream = two_tone;
+	$AudioStreamPlayer2D.play();
 	guess.append(button);
+	update_display();
 	
 	
 func reset_lock() -> void:
