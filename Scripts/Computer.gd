@@ -13,7 +13,7 @@ func _ready() -> void:
 
 
 func generate_combination() -> void:
-	pass;
+	var combination_generator = get_tree().get_root().find_node("CombinationGenerator", true, false);
 
 
 func _on_Computer_body_entered(body: Node) -> void:
