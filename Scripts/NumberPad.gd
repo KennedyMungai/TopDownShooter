@@ -27,8 +27,6 @@ func connect_buttons() -> void:
 
 
 func _on_Button_Pressed(button) -> void:
-	$AudioStreamPlayer2D.stream = three_tone;
-	$AudioStreamPlayer2D.play();
 	if button == "Ok":
 		check_guess();
 	else:
@@ -37,6 +35,8 @@ func _on_Button_Pressed(button) -> void:
 
 func check_guess() -> void:
 	if guess == combination:
+		$AudioStreamPlayer2D.stream = three_tone;
+		$AudioStreamPlayer2D.play();
 		light.texture = load(Global.green_light);
 		$Timer.start();
 	else:
