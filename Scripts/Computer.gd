@@ -10,8 +10,8 @@ func _ready() -> void:
 
 
 func _on_Computer_body_entered(body: Node) -> void:
-	pass # Replace with function body.
+	can_click = true;
 
 
 func _on_Computer_body_exited(body: Node) -> void:
-	pass # Replace with function body.
+	can_click = false;
