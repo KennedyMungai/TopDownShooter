@@ -5,6 +5,10 @@ extends Node
 export var length: int = 4; 
 
 
+func _ready() -> void:
+	generator_combination(length);
+
+
 func generator_combination(length: int) -> void:
 	var combination: Array = [];
 	
