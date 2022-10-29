@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://GFX/PNG/Tiles/tile_537.png" type="Texture" id=1]
 [ext_resource path="res://GFX/PNG/Tiles/tile_519.png" type="Texture" id=2]
 [ext_resource path="res://Scripts/Computer.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/ComputerPopup.tscn" type="PackedScene" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 44, 29 )
@@ -24,8 +25,4 @@ rotation = 1.5708
 texture = ExtResource( 2 )
 color = Color( 0.0392157, 0.321569, 0.992157, 1 )
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="ComputerPopup" type="Popup" parent="CanvasLayer"]
-margin_right = 40.0
-margin_bottom = 40.0
+[node name="CanvasLayer" parent="." instance=ExtResource( 4 )]
