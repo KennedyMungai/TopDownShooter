@@ -5,4 +5,5 @@
 [node name="Computer" type="Area2D"]
 
 [node name="Monitor" type="Sprite" parent="."]
+rotation = 1.5708
 texture = ExtResource( 1 )
