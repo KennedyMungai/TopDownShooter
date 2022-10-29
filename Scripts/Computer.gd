@@ -1,8 +1,11 @@
 extends Area2D
 
-
+#var
 var can_click: bool = false;
 var combination: Array;
+
+# Export var
+export var combination_length: int = 4;
 
 
 func _ready() -> void:
