@@ -918,4 +918,6 @@ scale = Vector2( 3, 1 )
 
 [node name="CombinationGenerator" parent="." instance=ExtResource( 12 )]
 
+[node name="Computers" type="Node2D" parent="."]
+
 [connection signal="timeout" from="Player/VisionModeTimer" to="Player" method="_on_VisionModeTimer_timeout"]
