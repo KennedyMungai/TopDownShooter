@@ -52,6 +52,9 @@ margin_right = -20.0
 margin_bottom = -20.0
 rect_clip_content = false
 mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "Test"
+text = "Test"
 __meta__ = {
 "_editor_description_": ""
 }
