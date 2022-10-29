@@ -9,6 +9,10 @@ func _ready() -> void:
 	$Light2D.enabled = false;
 
 
+func generate_combination() -> void:
+	pass;
+
+
 func _on_Computer_body_entered(body: Node) -> void:
 	can_click = true;
 	$Light2D.enabled = true;
