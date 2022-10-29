@@ -6,6 +6,7 @@
 visible = true
 margin_right = 40.0
 margin_bottom = 40.0
+rect_min_size = Vector2( 600, 480 )
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 margin_right = 40.0
