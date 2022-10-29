@@ -16,6 +16,7 @@ func _ready() -> void:
 func generate_combination() -> void:
 	var combination_generator = get_tree().get_root().find_node("CombinationGenerator", true, false);
 	combination = combination_generator.generate_combination(combination_length);
+	set_popup_text();
 
 
 func _on_Computer_body_entered(body: Node) -> void:
