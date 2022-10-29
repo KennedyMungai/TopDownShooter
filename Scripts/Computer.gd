@@ -34,3 +34,7 @@ func _input_event(viewport: Object, event: InputEvent, shape_idx: int) -> void:
 	if Input.is_mouse_button_pressed(BUTTON_LEFT) and can_click:
 		$CanvasLayer/ComputerPopup.popup_centered();
 		$Light2D.enabled = true;
+
+
+func set_popup_text() -> void:
+	pass;
