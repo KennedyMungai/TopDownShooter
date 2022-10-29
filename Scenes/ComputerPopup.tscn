@@ -3,3 +3,7 @@
 [node name="ComputerPopup" type="Popup"]
 margin_right = 40.0
 margin_bottom = 40.0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
