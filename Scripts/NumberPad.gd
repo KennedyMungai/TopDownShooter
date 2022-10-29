@@ -9,6 +9,10 @@ var combination: Array = [4, 1, 5];
 var guess: Array = [];
 
 
+#Signals
+signal combination_correct;
+
+
 func _ready() -> void:
 	connect_buttons();
 	reset_lock();
