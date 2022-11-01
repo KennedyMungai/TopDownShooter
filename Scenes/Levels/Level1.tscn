@@ -943,6 +943,17 @@ align = 1
 valign = 1
 uppercase = true
 
+[node name="Label2" type="Label" parent="MapLabels" groups=["Labels"]]
+margin_left = 1747.0
+margin_top = 1424.0
+margin_right = 1851.0
+margin_bottom = 1442.0
+theme = ExtResource( 14 )
+text = "security office"
+align = 1
+valign = 1
+uppercase = true
+
 [connection signal="timeout" from="Player/VisionModeTimer" to="Player" method="_on_VisionModeTimer_timeout"]
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor2" method="_on_Computer_combination"]
