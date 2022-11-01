@@ -8,6 +8,10 @@ var combination: Array;
 export var combination_length: int = 4;
 
 
+#Signals
+signal combination;
+
+
 func _ready() -> void:
 	$Light2D.enabled = false;
 	generate_combination();
