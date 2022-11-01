@@ -7,6 +7,7 @@ const NIGHTVISION = Color("35b088");
 func _ready() -> void:
 	add_to_group("interface");
 	color = DARK;
+	get_tree().call_group("Labels", "hide");
 	
 
 func NightVision() -> void:
