@@ -22,3 +22,7 @@ func _on_Door_body_exited(body: Node) -> void:
 
 func _on_NumberPad_combination_correct() -> void:
 	open();
+
+
+func _on_Computer_combination(numbers) -> void:
+	combination = numbers;
