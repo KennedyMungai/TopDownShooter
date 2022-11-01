@@ -933,6 +933,7 @@ rotation = 1.5708
 [node name="MapLabels" type="Node2D" parent="."]
 
 [node name="Main Office Label" type="Label" parent="MapLabels" groups=["Labels"]]
+visible = false
 margin_left = 4095.0
 margin_top = 772.0
 margin_right = 4135.0
@@ -944,6 +945,7 @@ valign = 1
 uppercase = true
 
 [node name="Security Office Label" type="Label" parent="MapLabels" groups=["Labels"]]
+visible = false
 margin_left = 1747.0
 margin_top = 1424.0
 margin_right = 1851.0
