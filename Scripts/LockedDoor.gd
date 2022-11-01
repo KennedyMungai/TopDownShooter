@@ -25,3 +25,4 @@ func _on_Computer_combination(numbers, lock_group) -> void:
 	combination = numbers;
 	$CanvasLayer/NumberPad.combination = combination;
 	$Label.rect_rotation = -rotation_degrees;
+	$Label.text = lock_group;
