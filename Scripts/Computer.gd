@@ -16,6 +16,7 @@ func _ready() -> void:
 	$Light2D.enabled = false;
 	generate_combination();
 	emit_signal("combination", combination);
+	$Label.rect_rotation = -rotation_degrees;
 
 
 func generate_combination() -> void:
