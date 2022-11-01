@@ -18,6 +18,7 @@ func _ready() -> void:
 	generate_combination();
 	emit_signal("combination", combination, lock_group);
 	$Label.rect_rotation = -rotation_degrees;
+	$Label.text = lock_group;
 
 
 func generate_combination() -> void:
