@@ -24,3 +24,4 @@ func _on_NumberPad_combination_correct() -> void:
 func _on_Computer_combination(numbers) -> void:
 	combination = numbers;
 	$CanvasLayer/NumberPad.combination = combination;
+	$Label.rect_rotation = -rotation_degrees;
