@@ -22,6 +22,7 @@ func DarkVision() -> void:
 	color = DARK;
 	$AudioStreamPlayer2D.stream = load(Global.nightvision_off_sfx);
 	play_sfx();
+	get_tree().call_group("Labels", "hide");
 
 
 func play_sfx() -> void:
