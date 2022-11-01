@@ -15,7 +15,7 @@ signal combination;
 func _ready() -> void:
 	$Light2D.enabled = false;
 	generate_combination();
-	emit_signal("combination");
+	emit_signal("combination", combination);
 
 
 func generate_combination() -> void:
