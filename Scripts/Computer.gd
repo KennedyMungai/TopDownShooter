@@ -6,7 +6,7 @@ var combination: Array;
 
 # Export var
 export var combination_length: int = 4;
-export var lock_group: String = "";
+export var lock_group: String = "Unset";
 
 
 #Signals
