@@ -932,13 +932,13 @@ rotation = 1.5708
 
 [node name="MapLabels" type="Node2D" parent="."]
 
-[node name="Label" type="Label" parent="MapLabels"]
+[node name="Label" type="Label" parent="MapLabels" groups=["Labels"]]
 margin_left = 4095.0
 margin_top = 772.0
 margin_right = 4135.0
 margin_bottom = 786.0
 theme = ExtResource( 14 )
-text = "Test"
+text = "Main Office"
 align = 1
 valign = 1
 uppercase = true
