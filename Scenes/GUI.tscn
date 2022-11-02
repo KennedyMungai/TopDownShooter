@@ -39,7 +39,7 @@ margin_bottom = 21.0
 theme = ExtResource( 2 )
 text = "Suspicion"
 
-[node name="SuspicionMeter" type="TextureProgress" parent="SuspicionContainer/CenterContainer/HSplitContainer"]
+[node name="SuspicionMeter" type="TextureProgress" parent="SuspicionContainer/CenterContainer/HSplitContainer" groups=["SuspicionMeter"]]
 margin_left = 99.0
 margin_right = 123.0
 margin_bottom = 24.0
