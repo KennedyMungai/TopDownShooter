@@ -17,3 +17,6 @@ func _process(delta: float) -> void:
 
 func player_scene() -> void:
 	suspicion += suspicion_step;
+	
+	if suspicion == max_value:
+		end_game();
