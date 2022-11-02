@@ -12,7 +12,7 @@ enum vision_mode {DARK, NIGHTVISION};
 func _ready() -> void:
 	Global.Player = self;
 	vision_mode.DARK;
-	collision_mask = 16;
+	collision_layer = 16;
 
 
 func _process(delta: float) -> void:
