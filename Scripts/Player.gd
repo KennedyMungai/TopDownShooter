@@ -45,6 +45,9 @@ func _input(event: InputEvent) -> void:
 		cycle_vision_mode();
 		vision_change_on_cooldown = true;
 		$VisionModeTimer.start();
+	
+	if Input.is_action_just_pressed("toggle_disguise"):
+		toggle_disguise();
 
 
 func cycle_vision_mode() -> void:
