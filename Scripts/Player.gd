@@ -73,4 +73,7 @@ func reveal() -> void:
 	
 	
 func toggle_disguise() -> void:
-	pass;
+	if disguised:
+		reveal();
+	else:
+		disguise();
