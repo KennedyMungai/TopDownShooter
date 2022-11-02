@@ -10,7 +10,11 @@ export var suspicion_dropoff: float = 0.25;
 
 
 func _process(delta: float) -> void:
-	suspicion -= suspicion_dropoff;
+	if suspicion > 0:
+		suspicion -= suspicion_dropoff;
+	else:
+		suspicion = 0;
+		
 	value = suspicion;
 
 
