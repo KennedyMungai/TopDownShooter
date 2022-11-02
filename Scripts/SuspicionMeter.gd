@@ -10,4 +10,4 @@ export var suspicion_dropoff: float = 0.25;
 
 
 func player_scene() -> void:
-	pass;
+	suspicion += suspicion_step;
