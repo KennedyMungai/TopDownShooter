@@ -66,3 +66,7 @@ func disguise() -> void:
 	
 func reveal() -> void:
 	pass;
+	
+	
+func toggle_disguise() -> void:
+	pass;
