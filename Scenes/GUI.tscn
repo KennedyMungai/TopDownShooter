@@ -21,3 +21,9 @@ patch_margin_bottom = 16
 [node name="CenterContainer" type="CenterContainer" parent="SuspicionContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+
+[node name="HSplitContainer" type="HSplitContainer" parent="SuspicionContainer/CenterContainer"]
+margin_left = 100.0
+margin_top = 100.0
+margin_right = 100.0
+margin_bottom = 100.0
