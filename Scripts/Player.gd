@@ -65,7 +65,8 @@ func _on_VisionModeTimer_timeout() -> void:
 
 
 func disguise() -> void:
-	pass;
+	$Sprite.texture = load(Global.box_sprite);
+	disguised = true;
 	
 	
 func reveal() -> void:
