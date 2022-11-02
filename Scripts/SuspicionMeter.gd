@@ -9,6 +9,10 @@ export var suspicion_step: int = 1;
 export var suspicion_dropoff: float = 0.25;
 
 
+func _process(delta: float) -> void:
+	suspicion -= suspicion_dropoff;
+
+
 func player_scene() -> void:
 	suspicion += suspicion_step;
 	value = suspicion;
