@@ -20,3 +20,7 @@ func player_scene() -> void:
 	
 	if suspicion == max_value:
 		end_game();
+
+
+func end_game() -> void:
+	get_tree().quit();
