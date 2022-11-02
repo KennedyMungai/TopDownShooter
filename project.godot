@@ -81,6 +81,7 @@ ui_vision_mode_change={
 2d_physics/layer_2="Terrain"
 2d_physics/layer_3="Security Camera"
 2d_physics/layer_4="Guards"
+2d_physics/layer_5="Disguise"
 
 [physics]
 
