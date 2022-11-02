@@ -24,9 +24,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="HSplitContainer" type="HSplitContainer" parent="SuspicionContainer/CenterContainer"]
-margin_left = 56.0
+margin_left = 50.0
 margin_top = 91.0
-margin_right = 143.0
+margin_right = 150.0
 margin_bottom = 109.0
 
 [node name="Label" type="Label" parent="SuspicionContainer/CenterContainer/HSplitContainer"]
@@ -34,3 +34,8 @@ margin_right = 87.0
 margin_bottom = 18.0
 theme = ExtResource( 2 )
 text = "Suspicion"
+
+[node name="TextureProgress" type="TextureProgress" parent="SuspicionContainer/CenterContainer/HSplitContainer"]
+margin_left = 99.0
+margin_right = 100.0
+margin_bottom = 18.0
