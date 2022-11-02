@@ -18,6 +18,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if(Player_is_in_FOV_TOLERANCE()):
 		$Torch.color = red;
+		get_tree().call_group("SuspicionMeter", "player_seen");
 	else: 
 		$Torch.color = white;
 	
