@@ -30,6 +30,7 @@ margin_left = 38.0
 margin_top = 88.0
 margin_right = 161.0
 margin_bottom = 112.0
+mouse_filter = 2
 
 [node name="Label" type="Label" parent="SuspicionContainer/CenterContainer/HSplitContainer"]
 margin_top = 3.0
