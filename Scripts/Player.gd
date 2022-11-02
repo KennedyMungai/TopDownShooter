@@ -69,7 +69,8 @@ func disguise() -> void:
 	
 	
 func reveal() -> void:
-	pass;
+	$Sprite.texture = load(Global.player_sprite);
+	disguised = false;
 	
 	
 func toggle_disguise() -> void:
