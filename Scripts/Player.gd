@@ -58,3 +58,11 @@ func cycle_vision_mode() -> void:
 
 func _on_VisionModeTimer_timeout() -> void:
 	vision_change_on_cooldown = false;
+
+
+func disguise() -> void:
+	pass;
+	
+	
+func reveal() -> void:
+	pass;
