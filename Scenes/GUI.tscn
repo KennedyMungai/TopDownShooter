@@ -45,4 +45,4 @@ margin_right = 123.0
 margin_bottom = 24.0
 texture_under = ExtResource( 3 )
 texture_progress = ExtResource( 4 )
-fill_mode = 4
+fill_mode = 5
