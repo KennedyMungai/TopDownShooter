@@ -29,6 +29,7 @@ func _process(delta: float) -> void:
 	update_motion(delta);
 	move_and_slide(motion);
 	$Label.rect_rotation = -rotation_degrees;
+	$Label.text = str($Timer.time_left);
 
 
 func update_motion(delta: float) -> void:
