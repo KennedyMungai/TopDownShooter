@@ -430,6 +430,7 @@ tile_data = PoolIntArray( -1507279, 11, 0, -1507278, 8, 0, -1507277, 8, 0, -1507
 [node name="Player" parent="." instance=ExtResource( 1 )]
 collision_mask = 1
 disguises = 3
+disguise_duration = 5
 
 [node name="VisionModeTimer" type="Timer" parent="Player"]
 wait_time = 1.5

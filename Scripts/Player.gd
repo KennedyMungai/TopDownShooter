@@ -12,6 +12,7 @@ enum vision_mode {DARK, NIGHTVISION};
 
 # Export Vars
 export var disguises: int = 3;
+export var disguise_duration: int = 5;
 
 
 func _ready() -> void:
