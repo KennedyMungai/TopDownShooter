@@ -64,3 +64,7 @@ patch_margin_bottom = 12
 __meta__ = {
 "_edit_group_": true
 }
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DisplayContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
