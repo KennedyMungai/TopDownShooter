@@ -5,6 +5,7 @@ extends "res://Scripts/Character.gd";
 var motion = Vector2();
 var vision_change_on_cooldown: bool = false;
 var disguised: bool = false;
+var velocity_multiplier: float = 1.0;
 
 # Enums
 enum vision_mode {DARK, NIGHTVISION};
