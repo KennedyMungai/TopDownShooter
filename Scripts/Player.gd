@@ -81,6 +81,7 @@ func disguise() -> void:
 	
 	
 func reveal() -> void:
+	$Label.visible = false;
 	$Sprite.texture = load(Global.player_sprite);
 	$Light2D.texture = load(Global.player_sprite);
 	disguised = false;
