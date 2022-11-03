@@ -75,6 +75,7 @@ func disguise() -> void:
 	$Sprite.texture = load(Global.box_sprite);
 	$Light2D.texture = load(Global.box_sprite);
 	disguised = true;
+	velocity_multiplier = disguise_slowdown;
 	
 	
 func reveal() -> void:
