@@ -82,6 +82,7 @@ func reveal() -> void:
 	$Sprite.texture = load(Global.player_sprite);
 	$Light2D.texture = load(Global.player_sprite);
 	disguised = false;
+	velocity_multiplier = 1;
 	
 	
 func toggle_disguise() -> void:
