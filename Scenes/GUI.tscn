@@ -26,23 +26,23 @@ patch_margin_bottom = 16
 anchor_right = 1.0
 anchor_bottom = 1.0
 
-[node name="HSplitContainer" type="HSplitContainer" parent="SuspicionContainer/CenterContainer"]
-margin_left = 38.0
+[node name="HBoxContainer" type="HBoxContainer" parent="SuspicionContainer/CenterContainer"]
+margin_left = 42.0
 margin_top = 88.0
-margin_right = 161.0
+margin_right = 157.0
 margin_bottom = 112.0
 mouse_filter = 2
 
-[node name="Label" type="Label" parent="SuspicionContainer/CenterContainer/HSplitContainer"]
+[node name="Label" type="Label" parent="SuspicionContainer/CenterContainer/HBoxContainer"]
 margin_top = 3.0
 margin_right = 87.0
 margin_bottom = 21.0
 theme = ExtResource( 2 )
 text = "Suspicion"
 
-[node name="SuspicionMeter" type="TextureProgress" parent="SuspicionContainer/CenterContainer/HSplitContainer" groups=["SuspicionMeter"]]
-margin_left = 99.0
-margin_right = 123.0
+[node name="SuspicionMeter" type="TextureProgress" parent="SuspicionContainer/CenterContainer/HBoxContainer" groups=["SuspicionMeter"]]
+margin_left = 91.0
+margin_right = 115.0
 margin_bottom = 24.0
 texture_under = ExtResource( 3 )
 texture_progress = ExtResource( 4 )
