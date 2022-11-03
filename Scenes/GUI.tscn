@@ -56,3 +56,7 @@ margin_top = 3.0
 margin_right = 44.0
 margin_bottom = 43.0
 texture = ExtResource( 6 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 12
