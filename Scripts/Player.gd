@@ -10,6 +10,10 @@ var disguised: bool = false;
 enum vision_mode {DARK, NIGHTVISION};
 
 
+# Export Vars
+export var disguises: int = 3;
+
+
 func _ready() -> void:
 	Global.Player = self;
 	vision_mode.DARK;
