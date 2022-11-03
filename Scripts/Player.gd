@@ -28,6 +28,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	update_motion(delta);
 	move_and_slide(motion);
+	$Label.rect_rotation = 0;
 
 
 func update_motion(delta: float) -> void:
