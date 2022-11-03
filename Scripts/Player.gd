@@ -21,6 +21,7 @@ func _ready() -> void:
 	Global.Player = self;
 	vision_mode.DARK;
 	collision_layer = 16;
+	$Timer.wait_time = disguise_duration;
 
 
 func _process(delta: float) -> void:
