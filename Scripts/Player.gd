@@ -73,6 +73,7 @@ func _on_VisionModeTimer_timeout() -> void:
 
 
 func disguise() -> void:
+	$Label.visible = true;
 	$Sprite.texture = load(Global.box_sprite);
 	$Light2D.texture = load(Global.box_sprite);
 	disguised = true;
