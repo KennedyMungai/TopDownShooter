@@ -88,5 +88,5 @@ func reveal() -> void:
 func toggle_disguise() -> void:
 	if disguised:
 		reveal();
-	else:
+	elif disguises > 0:
 		disguise();
