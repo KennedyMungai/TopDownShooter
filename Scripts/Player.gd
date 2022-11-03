@@ -22,6 +22,7 @@ func _ready() -> void:
 	vision_mode.DARK;
 	collision_layer = 16;
 	$Timer.wait_time = disguise_duration;
+	reveal();
 
 
 func _process(delta: float) -> void:
