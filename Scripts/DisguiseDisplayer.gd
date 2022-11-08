@@ -5,4 +5,4 @@ func update_disguises(number: int) -> void:
 	clear(); 
 	
 	for disguises in range(number):
-		pass
+		add_icon_item(load(Global.box_sprite))
