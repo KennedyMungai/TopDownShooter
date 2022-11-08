@@ -110,4 +110,6 @@ func update_disguise_displayer() -> void:
 	
 
 func collect_briefcase() -> void:
-	pass
+	var loot = Node.new()
+	loot.set_name("briefcase")
+	add_child(loot)
