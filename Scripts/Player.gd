@@ -23,6 +23,7 @@ func _ready() -> void:
 	collision_layer = 16;
 	$Timer.wait_time = disguise_duration;
 	reveal();
+	update_disguise_displayer()
 
 
 func _process(delta: float) -> void:
