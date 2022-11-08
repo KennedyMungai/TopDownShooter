@@ -108,3 +108,6 @@ func toggle_disguise() -> void:
 func update_disguise_displayer() -> void:
 	get_tree().call_group("DisguiseDisplay", "update_disguises", disguises)
 	
+
+func collect_briefcase() -> void:
+	pass
