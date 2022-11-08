@@ -6,7 +6,7 @@
 extents = Vector2( 81.5, 24.5 )
 
 [node name="Exit" type="ColorRect"]
-modulate = Color( 1, 1, 1, 0.254902 )
+self_modulate = Color( 1, 1, 1, 0.266667 )
 margin_right = 163.0
 margin_bottom = 49.0
 color = Color( 0.0470588, 0.6, 0.447059, 1 )
@@ -22,3 +22,7 @@ shape = SubResource( 1 )
 margin_right = 40.0
 margin_bottom = 14.0
 theme = ExtResource( 1 )
+text = "Exit"
+align = 1
+valign = 1
+uppercase = true
