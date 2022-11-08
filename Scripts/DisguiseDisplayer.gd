@@ -2,4 +2,7 @@ extends ItemList
 
 
 func update_disguises(number: int) -> void:
-	clear();
+	clear(); 
+	
+	for i in range(number):
+		pass
