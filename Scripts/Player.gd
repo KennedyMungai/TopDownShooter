@@ -81,6 +81,10 @@ func disguise() -> void:
 	$Sprite.texture = load(Global.box_sprite);
 	$Light2D.texture = load(Global.box_sprite);
 	disguised = true;
+	
+	disguises -= 1
+	get_tree().call_group("DisguiseDisplay", "update_disguises", disguises)
+	
 	velocity_multiplier = disguise_slowdown;
 	$Timer.start();
 	
