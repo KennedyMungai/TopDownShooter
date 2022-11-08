@@ -79,7 +79,7 @@ theme = ExtResource( 2 )
 text = "Disguises"
 uppercase = true
 
-[node name="ItemList" type="ItemList" parent="DisguiseContainer/VBoxContainer"]
+[node name="DisguiseDisplayer" type="ItemList" parent="DisguiseContainer/VBoxContainer"]
 margin_top = 22.0
 margin_right = 180.0
 margin_bottom = 180.0
