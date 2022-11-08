@@ -35,3 +35,5 @@ text = "Exit"
 align = 1
 valign = 1
 uppercase = true
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
