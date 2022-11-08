@@ -86,4 +86,5 @@ margin_bottom = 180.0
 size_flags_vertical = 3
 items = [ "", ExtResource( 7 ), false, "", ExtResource( 7 ), false, "", ExtResource( 7 ), false ]
 max_columns = 3
+same_column_width = true
 icon_scale = 0.75
