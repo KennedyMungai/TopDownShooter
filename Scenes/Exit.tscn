@@ -5,3 +5,5 @@ modulate = Color( 1, 1, 1, 0.254902 )
 margin_right = 163.0
 margin_bottom = 49.0
 color = Color( 0.0470588, 0.6, 0.447059, 1 )
+
+[node name="Area2D" type="Area2D" parent="."]
