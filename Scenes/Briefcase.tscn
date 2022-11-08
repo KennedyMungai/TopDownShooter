@@ -6,6 +6,7 @@
 extents = Vector2( 61, 56.5 )
 
 [node name="Briefcase" type="Area2D"]
+scale = Vector2( 0.3, 0.3 )
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
