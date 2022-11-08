@@ -83,7 +83,6 @@ func disguise() -> void:
 	disguised = true;
 	
 	disguises -= 1
-	get_tree().call_group("DisguiseDisplay", "update_disguises", disguises)
 	
 	velocity_multiplier = disguise_slowdown;
 	$Timer.start();
@@ -102,3 +101,8 @@ func toggle_disguise() -> void:
 		reveal();
 	elif disguises > 0:
 		disguise();
+		
+		
+func update_disguise_displayer() -> void:
+	get_tree().call_group("DisguiseDisplay", "update_disguises", disguises)
+	
