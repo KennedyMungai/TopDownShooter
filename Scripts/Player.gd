@@ -83,6 +83,7 @@ func disguise() -> void:
 	disguised = true;
 	
 	disguises -= 1
+	update_disguise_displayer()
 	
 	velocity_multiplier = disguise_slowdown;
 	$Timer.start();
