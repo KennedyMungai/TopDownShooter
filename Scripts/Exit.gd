@@ -4,4 +4,5 @@ extends ColorRect
 
 
 func _on_Area2D_body_entered(body: Node) -> void:
-	pass # Replace with function body.
+	if body.has_node("briefcase"):
+		print("You have a briefcase")
