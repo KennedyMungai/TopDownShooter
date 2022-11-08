@@ -6,3 +6,4 @@ func update_disguises(number: int) -> void:
 	
 	for disguises in range(number):
 		add_icon_item(load(Global.box_sprite), false)
+		
