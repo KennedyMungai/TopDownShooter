@@ -76,3 +76,6 @@ rect_min_size = Vector2( 168, 36 )
 size_flags_horizontal = 2
 text = "Quit"
 icon_align = 1
+
+[connection signal="pressed" from="CenterContainer/NinePatchRect/VBoxContainer/CenterContainer3/TryAgain" to="." method="_on_TryAgain_pressed"]
+[connection signal="pressed" from="CenterContainer/NinePatchRect/VBoxContainer/CenterContainer2/Quit" to="." method="_on_Quit_pressed"]
