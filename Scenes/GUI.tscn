@@ -121,7 +121,7 @@ text = "Loot"
 align = 1
 valign = 1
 
-[node name="ItemList" type="ItemList" parent="LootContainer/VBoxContainer"]
+[node name="LootList" type="ItemList" parent="LootContainer/VBoxContainer"]
 margin_top = 22.0
 margin_right = 42.0
 margin_bottom = 22.0
