@@ -49,5 +49,8 @@ uppercase = true
 
 [node name="Button" type="Button" parent="CenterContainer/NinePatchRect/VBoxContainer"]
 margin_top = 140.0
+margin_right = 84.0
 margin_bottom = 158.0
 size_flags_horizontal = 2
+text = "TRy again"
+icon_align = 1
