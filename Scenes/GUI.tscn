@@ -91,12 +91,18 @@ icon_scale = 0.75
 script = ExtResource( 7 )
 
 [node name="LootContainer" type="NinePatchRect" parent="."]
-margin_left = 11.0
-margin_top = 466.0
-margin_right = 276.0
-margin_bottom = 588.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 489.0
+margin_right = -804.0
+margin_bottom = -11.0
+rect_min_size = Vector2( 200, 100 )
 texture = ExtResource( 8 )
-patch_margin_left = 12
-patch_margin_top = 12
-patch_margin_right = 12
-patch_margin_bottom = 12
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+__meta__ = {
+"_editor_description_": ""
+}
