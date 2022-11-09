@@ -58,9 +58,9 @@ icon_align = 1
 
 [node name="Quit" type="Button" parent="CenterContainer/NinePatchRect/VBoxContainer"]
 margin_top = 151.0
-margin_right = 72.0
+margin_right = 168.0
 margin_bottom = 187.0
-rect_min_size = Vector2( 72, 36 )
+rect_min_size = Vector2( 168, 36 )
 size_flags_horizontal = 2
 text = "Quit"
 icon_align = 1
