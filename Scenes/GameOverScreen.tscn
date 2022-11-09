@@ -9,11 +9,11 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="NinePatchRect" type="NinePatchRect" parent="CenterContainer"]
-margin_left = 448.0
-margin_top = 236.0
-margin_right = 576.0
-margin_bottom = 364.0
-rect_min_size = Vector2( 128, 128 )
+margin_left = 312.0
+margin_top = 150.0
+margin_right = 712.0
+margin_bottom = 450.0
+rect_min_size = Vector2( 400, 300 )
 texture = ExtResource( 1 )
 patch_margin_left = 16
 patch_margin_top = 16
