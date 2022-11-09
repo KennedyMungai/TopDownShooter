@@ -88,3 +88,7 @@ max_columns = 3
 same_column_width = true
 icon_scale = 0.75
 script = ExtResource( 7 )
+
+[node name="LootContainer" type="NinePatchRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
