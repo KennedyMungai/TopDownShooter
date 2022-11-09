@@ -15,10 +15,10 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 813.0
-margin_top = 389.0
+margin_top = 489.0
 margin_right = -11.0
 margin_bottom = -11.0
-rect_min_size = Vector2( 200, 200 )
+rect_min_size = Vector2( 200, 100 )
 texture = ExtResource( 1 )
 patch_margin_left = 16
 patch_margin_top = 16
@@ -31,9 +31,9 @@ anchor_bottom = 1.0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="SuspicionContainer/CenterContainer"]
 margin_left = 42.0
-margin_top = 88.0
+margin_top = 38.0
 margin_right = 157.0
-margin_bottom = 112.0
+margin_bottom = 62.0
 mouse_filter = 2
 
 [node name="Label" type="Label" parent="SuspicionContainer/CenterContainer/HBoxContainer"]
@@ -56,8 +56,8 @@ script = ExtResource( 5 )
 margin_left = 10.0
 margin_top = 6.0
 margin_right = 210.0
-margin_bottom = 206.0
-rect_min_size = Vector2( 200, 200 )
+margin_bottom = 106.0
+rect_min_size = Vector2( 200, 100 )
 theme = ExtResource( 2 )
 texture = ExtResource( 6 )
 patch_margin_left = 12
@@ -83,7 +83,7 @@ uppercase = true
 [node name="DisguiseDisplayer" type="ItemList" parent="DisguiseContainer/VBoxContainer" groups=["DisguiseDisplay"]]
 margin_top = 22.0
 margin_right = 180.0
-margin_bottom = 180.0
+margin_bottom = 80.0
 size_flags_vertical = 3
 max_columns = 3
 same_column_width = true
