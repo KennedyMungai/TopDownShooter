@@ -106,3 +106,11 @@ patch_margin_bottom = 16
 __meta__ = {
 "_editor_description_": ""
 }
+
+[node name="Label" type="Label" parent="LootContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 2 )
+text = "Loot"
+align = 1
+valign = 1
