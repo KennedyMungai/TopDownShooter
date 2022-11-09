@@ -6,4 +6,4 @@ func _on_TryAgain_pressed() -> void:
 
 
 func _on_Quit_pressed() -> void:
-	pass # Replace with function body.
+	get_tree().quit()
