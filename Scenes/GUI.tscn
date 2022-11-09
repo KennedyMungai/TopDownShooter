@@ -108,9 +108,20 @@ __meta__ = {
 "_editor_description_": ""
 }
 
-[node name="Label" type="Label" parent="LootContainer"]
-anchor_right = 1.0
-anchor_bottom = 1.0
+[node name="VBoxContainer" type="VBoxContainer" parent="LootContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Label" type="Label" parent="LootContainer/VBoxContainer"]
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 42.0
+margin_bottom = 18.0
 text = "Loot"
 align = 1
 valign = 1
+
+[node name="ItemList" type="ItemList" parent="LootContainer/VBoxContainer"]
+margin_top = 22.0
+margin_right = 42.0
+margin_bottom = 22.0
