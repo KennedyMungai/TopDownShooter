@@ -28,3 +28,12 @@ margin_top = 20.0
 margin_right = -20.0
 margin_bottom = -20.0
 alignment = 1
+
+[node name="Label" type="Label" parent="CenterContainer/NinePatchRect/VBoxContainer"]
+margin_top = 123.0
+margin_right = 360.0
+margin_bottom = 137.0
+text = "Game Over"
+align = 1
+valign = 1
+uppercase = true
