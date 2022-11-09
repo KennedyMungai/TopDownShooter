@@ -5,6 +5,7 @@
 [ext_resource path="res://GFX/Interface/Fonts/kenvector_future.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=1]
+size = 30
 font_data = ExtResource( 3 )
 
 [node name="GameOverScreen" type="CanvasLayer"]
@@ -36,9 +37,9 @@ margin_bottom = -20.0
 alignment = 1
 
 [node name="Label" type="Label" parent="CenterContainer/NinePatchRect/VBoxContainer"]
-margin_top = 121.0
+margin_top = 112.0
 margin_right = 360.0
-margin_bottom = 139.0
+margin_bottom = 147.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "Game Over"
