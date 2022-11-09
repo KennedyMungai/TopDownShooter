@@ -113,3 +113,4 @@ func collect_briefcase() -> void:
 	var loot = Node.new()
 	loot.set_name("briefcase")
 	add_child(loot)
+	get_tree().call_group("interface", "collect_loot")
