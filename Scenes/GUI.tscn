@@ -91,7 +91,7 @@ same_column_width = true
 icon_scale = 0.75
 script = ExtResource( 7 )
 
-[node name="LootContainer" type="NinePatchRect" parent="."]
+[node name="LootContainer" type="NinePatchRect" parent="." groups=["interface"]]
 anchor_top = 1.0
 anchor_bottom = 1.0
 margin_left = 20.0
