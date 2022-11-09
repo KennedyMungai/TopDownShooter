@@ -37,9 +37,9 @@ margin_bottom = -20.0
 alignment = 1
 
 [node name="Label" type="Label" parent="CenterContainer/NinePatchRect/VBoxContainer"]
-margin_top = 70.0
+margin_top = 72.0
 margin_right = 360.0
-margin_bottom = 105.0
+margin_bottom = 107.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "Game Over"
@@ -47,25 +47,30 @@ align = 1
 valign = 1
 uppercase = true
 
-[node name="TryAgain" type="Button" parent="CenterContainer/NinePatchRect/VBoxContainer"]
-margin_top = 109.0
-margin_right = 168.0
-margin_bottom = 145.0
+[node name="CenterContainer3" type="CenterContainer" parent="CenterContainer/NinePatchRect/VBoxContainer"]
+margin_top = 111.0
+margin_right = 360.0
+margin_bottom = 147.0
+
+[node name="TryAgain" type="Button" parent="CenterContainer/NinePatchRect/VBoxContainer/CenterContainer3"]
+margin_left = 96.0
+margin_right = 264.0
+margin_bottom = 36.0
 rect_min_size = Vector2( 168, 36 )
 size_flags_horizontal = 2
 text = "TRy again"
 icon_align = 1
 
-[node name="Quit" type="Button" parent="CenterContainer/NinePatchRect/VBoxContainer"]
-margin_top = 149.0
-margin_right = 168.0
-margin_bottom = 185.0
+[node name="CenterContainer2" type="CenterContainer" parent="CenterContainer/NinePatchRect/VBoxContainer"]
+margin_top = 151.0
+margin_right = 360.0
+margin_bottom = 187.0
+
+[node name="Quit" type="Button" parent="CenterContainer/NinePatchRect/VBoxContainer/CenterContainer2"]
+margin_left = 96.0
+margin_right = 264.0
+margin_bottom = 36.0
 rect_min_size = Vector2( 168, 36 )
 size_flags_horizontal = 2
 text = "Quit"
 icon_align = 1
-
-[node name="CenterContainer" type="CenterContainer" parent="CenterContainer/NinePatchRect/VBoxContainer"]
-margin_top = 189.0
-margin_right = 360.0
-margin_bottom = 189.0
