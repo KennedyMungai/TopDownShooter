@@ -92,7 +92,7 @@ script = ExtResource( 7 )
 
 [node name="LootContainer" type="NinePatchRect" parent="."]
 margin_left = 11.0
-margin_top = 548.0
-margin_right = 51.0
+margin_top = 466.0
+margin_right = 276.0
 margin_bottom = 588.0
 texture = ExtResource( 8 )
