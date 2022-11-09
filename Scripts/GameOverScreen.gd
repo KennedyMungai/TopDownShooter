@@ -2,7 +2,7 @@ extends CanvasLayer
 
 
 func _on_TryAgain_pressed() -> void:
-	pass # Replace with function body.
+	get_tree().change_scene("res://Scenes/Levels/Level1.tscn")
 
 
 func _on_Quit_pressed() -> void:
