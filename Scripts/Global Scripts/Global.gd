@@ -16,3 +16,4 @@ var green_light = "res://GFX/Interface/PNG/dotGreen.png";
 
 var box_sprite = "res://GFX/PNG/Tiles/tile_42.png";
 var player_sprite = "res://GFX/PNG/Hitman 1/hitman1_stand.png";
+var briefcase_sprite = "res://GFX/Loot/suitcase.png"
