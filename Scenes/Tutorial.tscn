@@ -42,3 +42,6 @@ position = Vector2( 1440, 64 )
 [node name="CrossHair" type="Sprite" parent="."]
 position = Vector2( 312, 96 )
 texture = ExtResource( 7 )
+
+[node name="Light2D" type="Light2D" parent="CrossHair"]
+texture = ExtResource( 7 )
