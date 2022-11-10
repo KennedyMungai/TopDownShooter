@@ -82,3 +82,13 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveAreas/ObjectiveDoor"]
 shape = SubResource( 1 )
+
+[node name="ObjectiveNightVision" type="Area2D" parent="ObjectiveAreas"]
+position = Vector2( 148, 358 )
+collision_layer = 2
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveAreas/ObjectiveNightVision"]
+shape = SubResource( 1 )
