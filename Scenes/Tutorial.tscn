@@ -102,3 +102,13 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveAreas/ObjectiveLoot"]
 shape = SubResource( 1 )
+
+[node name="ObjectiveExit" type="Area2D" parent="ObjectiveAreas"]
+position = Vector2( 806, 642 )
+collision_layer = 2
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveAreas/ObjectiveExit"]
+shape = SubResource( 1 )
