@@ -27,7 +27,7 @@ func _on_ObjectiveExit_body_entered(body: Node) -> void:
 
 func update_pointer_position(number: int) -> void:	
 	var pointer = $ObjectiveAreas
-	var marker = $ObjectiveMarker.get_child(0)
+	var marker = $ObjectiveMarker.get_child(number)
 	pointer.position = marker.position
 	$AudioStreamPlayer.play()
 	$Tween.interpolate_property(pointer, "position", pointer.position, marker.position, 0.5, Tween.TRANS_SINE, Tween.EASE_IN_OUT)
