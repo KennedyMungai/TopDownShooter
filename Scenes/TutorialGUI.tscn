@@ -6,6 +6,7 @@
 [node name="TutorialGUI" type="CanvasLayer"]
 
 [node name="Popup" type="Popup" parent="."]
+visible = true
 margin_left = 276.0
 margin_top = 274.0
 margin_right = 823.0
@@ -30,3 +31,7 @@ patch_margin_bottom = 16
 [node name="Label" type="Label" parent="Popup"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
