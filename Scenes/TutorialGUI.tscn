@@ -5,12 +5,13 @@
 [node name="TutorialGUI" type="CanvasLayer"]
 
 [node name="Popup" type="Popup" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
+visible = true
+margin_right = 321.0
+margin_bottom = 307.0
 
 [node name="NinePatchRect" type="NinePatchRect" parent="Popup"]
-margin_right = 40.0
-margin_bottom = 40.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 rect_min_size = Vector2( 256, 256 )
 texture = ExtResource( 1 )
 patch_margin_left = 16
