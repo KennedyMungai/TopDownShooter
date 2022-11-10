@@ -27,4 +27,4 @@ func _on_ObjectiveExit_body_entered(body: Node) -> void:
 
 func update_pointer_position() -> void:	
 	var pointer = $ObjectiveAreas
-	var marker = $ObjectiveMarker
+	var marker = $ObjectiveMarker.get_child(0)
