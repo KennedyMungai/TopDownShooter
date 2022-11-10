@@ -114,3 +114,9 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveAreas/ObjectiveExit"]
 shape = SubResource( 1 )
+
+[connection signal="body_entered" from="ObjectiveAreas/ObjectiveMove" to="." method="_on_ObjectiveMove_body_entered"]
+[connection signal="body_entered" from="ObjectiveAreas/ObjectiveDoor" to="." method="_on_ObjectiveDoor_body_entered"]
+[connection signal="body_entered" from="ObjectiveAreas/ObjectiveNightVision" to="." method="_on_ObjectiveNightVision_body_entered"]
+[connection signal="body_entered" from="ObjectiveAreas/ObjectiveLoot" to="." method="_on_ObjectiveLoot_body_entered"]
+[connection signal="body_entered" from="ObjectiveAreas/ObjectiveExit" to="." method="_on_ObjectiveExit_body_entered"]
