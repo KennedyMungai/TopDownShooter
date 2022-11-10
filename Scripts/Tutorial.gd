@@ -25,5 +25,6 @@ func _on_ObjectiveExit_body_entered(body: Node) -> void:
 	pass # Replace with function body.
 
 
-func update_pointer_position() -> void:
-	pass
+func update_pointer_position() -> void:	
+	var pointer = $ObjectiveAreas
+	var marker = $ObjectiveMarker
