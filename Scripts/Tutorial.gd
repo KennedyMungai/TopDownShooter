@@ -30,3 +30,4 @@ func update_pointer_position() -> void:
 	var marker = $ObjectiveMarker.get_child(0)
 	pointer.position = marker.position
 	$ObjectiveMarker.remove_child(marker)
+	$AudioStreamPlayer.play()
