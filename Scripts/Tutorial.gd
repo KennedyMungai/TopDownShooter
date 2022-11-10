@@ -29,7 +29,6 @@ func update_pointer_position() -> void:
 	var pointer = $ObjectiveAreas
 	var marker = $ObjectiveMarker.get_child(0)
 	pointer.position = marker.position
-	$ObjectiveMarker.remove_child(marker)
 	$AudioStreamPlayer.play()
 	$Tween.interpolate_property(pointer, "position", pointer.position, marker.position, 0.5, Tween.TRANS_SINE, Tween.EASE_IN_OUT)
 	$Tween.start()
