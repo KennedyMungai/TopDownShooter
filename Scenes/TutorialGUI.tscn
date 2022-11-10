@@ -5,7 +5,6 @@
 [node name="TutorialGUI" type="CanvasLayer"]
 
 [node name="Popup" type="Popup" parent="."]
-visible = true
 margin_right = 321.0
 margin_bottom = 307.0
 
