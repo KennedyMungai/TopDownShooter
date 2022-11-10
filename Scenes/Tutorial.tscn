@@ -34,3 +34,6 @@ shadow_enabled = true
 position = Vector2( 80, 104 )
 
 [node name="ObjectiveMarker" type="Node2D" parent="."]
+
+[node name="Position2D" type="Position2D" parent="ObjectiveMarker"]
+position = Vector2( 1440, 64 )
