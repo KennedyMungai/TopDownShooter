@@ -1,6 +1,9 @@
 extends Node2D
 
 
+var text: String
+
+
 func _ready() -> void:
 	update_pointer_position(0)
 	$TutorialGUI/Popup.show()
