@@ -41,6 +41,6 @@ func get_json() -> String:
 	file.open(Global.tutorial_messages, File.READ)
 	var content = file.get_as_text()
 	file.close()
-	return content
+	return parse_json(content)
 
 
