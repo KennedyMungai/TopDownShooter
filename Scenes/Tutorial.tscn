@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Tilesets/AutoTileFloor.tres" type="TileSet" id=1]
 [ext_resource path="res://Tilesets/AutoTileWalls.tres" type="TileSet" id=2]
@@ -7,11 +7,13 @@
 [ext_resource path="res://Lightmaps/radial.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/Characters/Player.tscn" type="PackedScene" id=6]
 [ext_resource path="res://GFX/Interface/PNG/crossair_blueOutline.png" type="Texture" id=7]
+[ext_resource path="res://Scripts/Tutorial.gd" type="Script" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 20, 20 )
 
 [node name="Tutorial" type="Node2D"]
+script = ExtResource( 8 )
 
 [node name="Floor" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
