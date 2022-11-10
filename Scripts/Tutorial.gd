@@ -36,5 +36,11 @@ func update_pointer_position(number: int) -> void:
 	$Tween.start()
 
 
-func get_json() -> void:
-	pass
+func get_json() -> String:
+	var file = File.new()
+	file.open(Global.tutorial_messages, File.READ)
+	var content = file.get_as_text()
+	file.close()
+	return content
+
+
