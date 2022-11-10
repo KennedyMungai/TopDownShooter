@@ -37,6 +37,7 @@ func update_pointer_position(number: int) -> void:
 	$AudioStreamPlayer.play()
 	$Tween.interpolate_property(pointer, "position", pointer.position, marker.position, 0.5, Tween.TRANS_SINE, Tween.EASE_IN_OUT)
 	$Tween.start()
+	$TutorialGUI/Popup/Label.text = text[number]
 
 
 func get_json() -> String:
