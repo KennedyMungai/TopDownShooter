@@ -119,6 +119,8 @@ shape = SubResource( 1 )
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
 
+[node name="Tween" type="Tween" parent="."]
+
 [connection signal="body_entered" from="ObjectiveAreas/ObjectiveMove" to="." method="_on_ObjectiveMove_body_entered"]
 [connection signal="body_entered" from="ObjectiveAreas/ObjectiveDoor" to="." method="_on_ObjectiveDoor_body_entered"]
 [connection signal="body_entered" from="ObjectiveAreas/ObjectiveNightVision" to="." method="_on_ObjectiveNightVision_body_entered"]
