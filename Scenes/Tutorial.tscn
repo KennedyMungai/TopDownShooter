@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Tilesets/AutoTileFloor.tres" type="TileSet" id=1]
 [ext_resource path="res://Tilesets/AutoTileWalls.tres" type="TileSet" id=2]
 [ext_resource path="res://Scenes/Door.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/VisionMode.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Lightmaps/radial.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Characters/Player.tscn" type="PackedScene" id=6]
 
 [node name="Tutorial" type="Node2D"]
 
@@ -25,4 +26,8 @@ rotation = -1.57079
 [node name="VisionMode" parent="." instance=ExtResource( 4 )]
 
 [node name="Light2D" type="Light2D" parent="."]
+position = Vector2( 440, 136 )
 texture = ExtResource( 5 )
+
+[node name="Character" parent="." instance=ExtResource( 6 )]
+position = Vector2( 80, 104 )
