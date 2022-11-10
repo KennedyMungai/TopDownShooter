@@ -432,9 +432,6 @@ tile_data = PoolIntArray( -1507279, 11, 0, -1507278, 8, 0, -1507277, 8, 0, -1507
 [node name="Player" parent="." instance=ExtResource( 1 )]
 collision_mask = 1
 
-[node name="VisionModeTimer" type="Timer" parent="Player"]
-wait_time = 1.5
-
 [node name="Walls" type="TileMap" parent="."]
 tile_set = ExtResource( 2 )
 collision_layer = 2
@@ -965,7 +962,6 @@ margin_bottom = 1144.0
 [node name="Briefcase" parent="." instance=ExtResource( 17 )]
 position = Vector2( 3302, -1133 )
 
-[connection signal="timeout" from="Player/VisionModeTimer" to="Player" method="_on_VisionModeTimer_timeout"]
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor2" method="_on_Computer_combination"]
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor3" method="_on_Computer_combination"]
