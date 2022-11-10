@@ -36,7 +36,7 @@ position = Vector2( 80, 104 )
 
 [node name="ObjectiveMarker" type="Node2D" parent="."]
 
-[node name="Position2D" type="Position2D" parent="ObjectiveMarker"]
+[node name="RoomObjective" type="Position2D" parent="ObjectiveMarker"]
 position = Vector2( 1440, 64 )
 
 [node name="CrossHair" type="Sprite" parent="."]
