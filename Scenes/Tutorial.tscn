@@ -37,19 +37,19 @@ position = Vector2( 80, 104 )
 [node name="ObjectiveMarker" type="Node2D" parent="."]
 
 [node name="MoveObjective" type="Position2D" parent="ObjectiveMarker"]
-position = Vector2( 1440, 64 )
+position = Vector2( 251, 105 )
 
 [node name="DoorObjective" type="Position2D" parent="ObjectiveMarker"]
-position = Vector2( 1440, 64 )
+position = Vector2( 1438, 548 )
 
 [node name="NightVisionObjective" type="Position2D" parent="ObjectiveMarker"]
-position = Vector2( 1440, 64 )
+position = Vector2( 148, 358 )
 
 [node name="LootObjective" type="Position2D" parent="ObjectiveMarker"]
-position = Vector2( 1440, 64 )
+position = Vector2( 1180, 318 )
 
 [node name="ExitObjective" type="Position2D" parent="ObjectiveMarker"]
-position = Vector2( 1440, 64 )
+position = Vector2( 806, 642 )
 
 [node name="CrossHair" type="Sprite" parent="."]
 position = Vector2( 312, 96 )
