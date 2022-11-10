@@ -22,3 +22,5 @@ position = Vector2( 1440, 544 )
 rotation = -1.57079
 
 [node name="VisionMode" parent="." instance=ExtResource( 4 )]
+
+[node name="Light2D" type="Light2D" parent="."]
