@@ -57,3 +57,5 @@ texture = ExtResource( 7 )
 
 [node name="Light2D" type="Light2D" parent="CrossHair"]
 texture = ExtResource( 7 )
+
+[node name="ObjectiveAreas" type="Node2D" parent="."]
