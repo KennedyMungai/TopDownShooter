@@ -37,10 +37,10 @@ func update_pointer_position(number: int) -> void:
 	$AudioStreamPlayer.play()
 	$Tween.interpolate_property(pointer, "position", pointer.position, marker.position, 0.5, Tween.TRANS_SINE, Tween.EASE_IN_OUT)
 	$Tween.start()
-	$TutorialGUI/Popup/Label.text = text[number]
+	$TutorialGUI/Popup/Label.text = text[str(number)]
 
 
-func get_json() -> String:
+func get_json():
 	var file = File.new()
 	file.open(Global.tutorial_messages, File.READ)
 	var content = file.get_as_text()
