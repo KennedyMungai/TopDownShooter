@@ -3,7 +3,8 @@ extends Node2D
 
 func _ready() -> void:
 	update_pointer_position(0)
-
+	$TutorialGUI/Popup.show()
+	
 
 func _on_ObjectiveMove_body_entered(body: Node) -> void:
 	update_pointer_position(1)
